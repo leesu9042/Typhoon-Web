@@ -4,14 +4,13 @@
 
 <!-- ⬅ 사이드바 전체 래퍼 -->
 <div id="sidePanel" style="
-    width: 300px;
-    height: 100vh;
+
     background: #f6f8fa;
     padding: 20px;
     box-shadow: 2px 0 10px rgba(0,0,0,0.1);
-    position: fixed;
-    top: 0;
-    right: 0;
+    position: relative; /* fixed 대신 relative로 변경 */
+    width: 100%; /* 부모 컨테이너 넓이 모두 차지 */
+    height: 100%;
     overflow-y: auto;
 ">
     <h4>태풍 연도 선택</h4>
