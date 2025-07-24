@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.2,
+          16.6
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 18.0,
+        "RAD15": 290.0,
+        "PS": 998.0,
+        "DIR": "WNW",
+        "LOC": "필리핀 마닐라 동북동쪽 약 500 km 부근 해상",
+        "RAD": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2,
+          18.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 21.0,
+        "RAD15": 310.0,
+        "PS": 994.0,
+        "DIR": "NW",
+        "LOC": "필리핀 마닐라 북북동쪽 약 470 km 부근 해상",
+        "RAD": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0,
+          19.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 330.0,
+        "PS": 990.0,
+        "DIR": "WNW",
+        "LOC": "필리핀 마닐라 북쪽 약 530 km 부근 해상",
+        "RAD": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.9,
+          20.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 350.0,
+        "PS": 985.0,
+        "DIR": "WNW",
+        "LOC": "중국 홍콩 동남동쪽 약 560 km 부근 해상",
+        "RAD": 110
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.6,
+          20.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 370.0,
+        "PS": 980.0,
+        "DIR": "WNW",
+        "LOC": "중국 홍콩 동남동쪽 약 320 km 부근 해상",
+        "RAD": 130
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3,
+          21.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 390.0,
+        "PS": 975.0,
+        "DIR": "W",
+        "LOC": "중국 잔장 동쪽 약 210 km 부근 해상",
+        "RAD": 190
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3,
+          21.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 370.0,
+        "PS": 980.0,
+        "DIR": "W",
+        "LOC": "중국 잔장 서쪽 약 100 km 부근 해상",
+        "RAD": 280
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3,
+          21.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 320.0,
+        "PS": 990.0,
+        "DIR": "W",
+        "LOC": "베트남 하노이 동북동쪽 약 60 km 부근 육상",
+        "RAD": 410
+      }
+    }
+  ]
+}
