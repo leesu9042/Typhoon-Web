@@ -8,6 +8,7 @@ import { Cartesian3, createOsmBuildingsAsync, Ion, Math as CesiumMath, Terrain, 
 import "cesium/Build/Cesium/Widgets/widgets.css";
 import { geojsonPointsToLineString } from "./util/createPolylines";
 import polygonClipping from "polygon-clipping";
+import { loadSidebar } from './components/sidebar/sidebarLoader.js';
 
 import * as turf from "@turf/turf";
 
@@ -153,3 +154,6 @@ async function initCesium() {
 
 // 함수 실행
 initCesium();
+
+
+loadSidebar();
