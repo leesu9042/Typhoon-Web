@@ -27,6 +27,7 @@ export function createPolygons(data, property, ruler) {
             // 유효한 좌표인지 확인: 숫자가 아니면 해당 지점 무시
             if (isNaN(lon) || isNaN(lat)) {
                 console.error("Invalid coordinates:", coordinates);
+
                 return acc;
             }
 
@@ -58,23 +59,23 @@ export function createPolygons(data, property, ruler) {
 
             let polygons = circle;
 
-            // 이전 지점이 있다면, 두 지점을 연결하는 사각형 폴리곤 생성
-            if (acc.previousPoint) {
-                const prevCoords = acc.previousPoint.geometry.coordinates;
-
-                // 이전 지점과 현재 지점 사이의 방위각 계산
-                let bearing = ruler.bearing(prevCoords, currentPoint);
-
-                // 방위각 기준으로 반경 값을 사용해 사각형 꼭짓점 계산
-                let p1 = ruler.destination(currentPoint, propertyValue, bearing + 90);
-                let p2 = ruler.destination(prevCoords, acc.previousPoint.propertyValue, bearing + 90);
-                let p3 = ruler.destination(prevCoords, acc.previousPoint.propertyValue, bearing - 90);
-                let p4 = ruler.destination(currentPoint, propertyValue, bearing - 90);
-
-                // 사각형 폴리곤 생성하고, circle과 함께 컬렉션화
-                const connector = turf.polygon([[p1, p2, p3, p4, p1]]);
-                polygons = turf.featureCollection([circle, connector]);
-            }
+            // // 이전 지점이 있다면, 두 지점을 연결하는 사각형 폴리곤 생성
+            // if (acc.previousPoint) {
+            //     const prevCoords = acc.previousPoint.geometry.coordinates;
+            //
+            //     // 이전 지점과 현재 지점 사이의 방위각 계산
+            //     let bearing = ruler.bearing(prevCoords, currentPoint);
+            //
+            //     // 방위각 기준으로 반경 값을 사용해 사각형 꼭짓점 계산
+            //     let p1 = ruler.destination(currentPoint, propertyValue, bearing + 90);
+            //     let p2 = ruler.destination(prevCoords, acc.previousPoint.propertyValue, bearing + 90);
+            //     let p3 = ruler.destination(prevCoords, acc.previousPoint.propertyValue, bearing - 90);
+            //     let p4 = ruler.destination(currentPoint, propertyValue, bearing - 90);
+            //
+            //     // 사각형 폴리곤 생성하고, circle과 함께 컬렉션화
+            //     const connector = turf.polygon([[p1, p2, p3, p4, p1]]);
+            //     polygons = turf.featureCollection([circle, connector]);
+            // }
 
             // 현재 아이템을 "이전 지점"으로 저장 후, 결과 배열에 추가
             acc.previousPoint = item;
