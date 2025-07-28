@@ -1,4 +1,5 @@
 import * as turf from "@turf/turf";
+import {getPolygonCoordsFromPair} from "./getPolygonCoordsFromPair.js";
 
 /**
  * 주어진 GeoJSON FeatureCollection에서,
@@ -8,41 +9,62 @@ import * as turf from "@turf/turf";
  * - Polygon에서는 0번째와 중간점을 추출
  * - Point는 양 옆에 Polygon이 하나라도 있을 때만 사용
  *
- * @param {{type: string, features: *}} geojson
- * @returns {Feature<Polygon>} 연결된 Polygon turf 객체
+ * @param {{type: string, features: *}} featureCollection
+ * @param RadiusProperty
+ * @param ruler
+ * @returns
  */
-export function generateConnectedPolygon(geojson) {
-    const coords = [];
-    const features = geojson.features;
+export function generateConnectedPolygon(featureCollection,RadiusProperty,ruler) {
 
-    for (let i = 0; i < features.length; i++) {
+    const isPoint = f => f.geometry.type === "Point";
+    const subPolygons  = [];
+    const features = featureCollection.features;
+
+
+    for (let i = 0; i < features.length -1; i++) {
         const current = features[i];
-        const prev = features[i - 1];
         const next = features[i + 1];
 
-        if (current.geometry.type === "Polygon") {
+
+        if (!current || !next) continue;  // ✅ 방어 코드 추가
 
 
-            const ring = current.geometry.coordinates[0];
-            const p1 = ring[0];
-            const p2 = ring[Math.floor(ring.length / 2)];
-            coords.push(p1, p2);
+        if (isPoint(current) && isPoint(next)) continue;
+
+        /**
+         * @returns {Array<[number, number]>} Polygon 좌표를 구성할 점 배열
+         */
+        const coords = getPolygonCoordsFromPair(current, next,RadiusProperty, ruler);
+        //polygon 만들 좌표 생성 함수
+        // circle이면 ±90° 방향으로 2개의 점,
+        // point면 중심점 1개를 반환하게 될 함수
+
+        console.log("coords 값:",coords);
 
 
-        } else if (current.geometry.type === "Point") {
-            const hasAdjacentCircle =
-                (prev && prev.geometry.type === "Polygon") ||
-                (next && next.geometry.type === "Polygon");
+        console.log(coords.length); // 3
 
-            if (hasAdjacentCircle) {
-                coords.push(current.geometry.coordinates);
-            }
+        if (coords.length < 4) {
+            console.warn("⚠️ Invalid polygon coordinates:", coords?.[0]);
+            continue;
         }
+
+        //반환된걸로 polygon만들고 push
+        subPolygons.push(turf.polygon([coords])); // ✅ 배열로 한 번 더 감싸기
+
+
+        var multiPt = turf.multiPoint(coords);
+
+
     }
 
-    if (coords.length > 0) {
-        coords.push(coords[0]); // 폴리곤 닫기
-    }
+    console.log("최종 polygon 좌표:", JSON.stringify(subPolygons));
 
-    return turf.polygon([coords]);
+    const featureCollection1 = turf.featureCollection(subPolygons)
+
+
+    console.log("최종 polygon 좌표:", JSON.stringify(featureCollection1));
+
+
+    return turf.union(featureCollection1);
 }
