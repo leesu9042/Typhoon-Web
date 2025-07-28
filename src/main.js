@@ -22,6 +22,7 @@ import { PointMarker} from "./cesium/pointMarker";
 import {addLineStringToViewer} from "./cesium/addLineStringToViewer";
 import {createCirclePolygons} from "./util/createCirclePolygon";
 import {generateConnectedPolygon} from "./util/generateConnectedPolygon";
+import {mergePolygonsAsFeatureCollection} from "./util/mergePolygonsAsFeatureCollection.js";
 
 
 
@@ -58,6 +59,8 @@ async function main(){
     //  'RAD'속성을 반지름으로하는 ceisium에 올릴 폴리곤 데이터 만들기
     //  geoJSon형태의 featureCollection
     const circleFeatureCollection  = createCirclePolygons(geojson, 'RAD', ruler);
+    console.log(JSON.stringify(circleFeatureCollection, null, 2))
+
 
 
     // circleFeatureCollection 값 양호한지 test
@@ -77,98 +80,36 @@ async function main(){
 
 
 
+    const ConnectedPolygon = generateConnectedPolygon(circleFeatureCollection,'RAD', ruler);
+    console.log("union 형태 :", JSON.stringify(resultPolygon));
 
-    const resultPolygon = generateConnectedPolygon(circleFeatureCollection);
 
-// GeoJSON 파일로 저장 (시각화에 사용 가능)
+
+    // //circle(사실그냥 폴리곤) 시각화
+    // try {
+    //     const dataSource = await GeoJsonDataSource.load(resultPolygon);
+    //     await viewer.dataSources.add(dataSource);
+    //     await viewer.flyTo(dataSource);
+    // } catch (error) {
+    //     console.error("폴리곤 로드 실패:", error);
+    // }
+    // console.log('✅ 연결된 Polygon 생성 완료: result.geojson');
+
+    const finalFC = mergePolygonsAsFeatureCollection(circleFeatureCollection, ConnectedPolygon);
+    const a = turf.union(finalFC)
 
 
 
     //circle(사실그냥 폴리곤) 시각화
     try {
-        const dataSource = await GeoJsonDataSource.load(resultPolygon);
+        const dataSource = await GeoJsonDataSource.load(a);
         await viewer.dataSources.add(dataSource);
         await viewer.flyTo(dataSource);
     } catch (error) {
         console.error("폴리곤 로드 실패:", error);
     }
-    console.log('✅ 연결된 Polygon 생성 완료: result.geojson');
-
-
 }
 
-
-
-
-// 전체 로직을 async 함수로 감싸기
-async function initCesium() {
-
-
-
-
-
-    // GeoJsonDataSource.load(line) // line: LineString 타입의 GeoJSON Feature 객체
-    //     .then(function(dataSource) {
-    //         viewer.dataSources.add(dataSource);
-    //         viewer.flyTo(dataSource); // 자동으로 줌 인
-    //
-    //         // (아래는 정보 출력용이라면 생략 가능)
-    //         // const entities = dataSource.entities.values;
-    //         // console.log('엔티티 개수:', entities.length);
-    //
-    //
-    //     })
-    //     .catch(function(err) {
-    //         console.error("LineString 로드 실패:", err);
-    //     });
-
-
-
-//     const CheapRuler = pkg.default || pkg;
-//
-// // 그 뒤 사용은 동일
-//     const ruler = new CheapRuler(37.5, 'kilometers');
-//
-//
-// //  'radius' 속성으로 폴리곤 만들기
-//     const polygonsArr = createPolygons(geojson, 'RAD', ruler);
-
-
-
-// step2: 모든 폴리곤들의 coordinates만 추출
-    const allPolygons = polygonsArr.flatMap(f => {
-        if (f.type === 'Feature' && f.geometry.type.includes('Polygon')) {
-            return [f.geometry.coordinates];
-        }
-        if (f.type === 'FeatureCollection') {
-            return f.features.filter(g => g.geometry.type.includes('Polygon')).map(g => g.geometry.coordinates);
-        }
-        return [];
-    });
-
-// step3: polygon-clipping union으로 겹침 없는 폴리곤 합치기
-    const unionCoords = polygonClipping.union(...allPolygons);
-
-// step4: GeoJSON 래핑
-    const mergedGeoJson = {
-        type: 'Feature',
-        geometry: {
-            type: unionCoords.length === 1 ? 'Polygon' : 'MultiPolygon',
-            coordinates: unionCoords.length === 1 ? unionCoords[0] : unionCoords
-        },
-        properties: {}
-    };
-    GeoJsonDataSource.load(mergedGeoJson)
-        .then(function(dataSource) {
-            viewer.dataSources.add(dataSource);
-            viewer.flyTo(dataSource); // 자동 줌-인
-        })
-        .catch(function(err) {
-            console.error("Merged Polygon 로드 실패:", err);
-        });
-
-
-}
 
 // 함수 실행
 
