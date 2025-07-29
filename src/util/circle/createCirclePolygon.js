@@ -31,7 +31,7 @@ export function createCirclePolygons(data, property, ruler) {
 
 
             if (radius > 0 && !isNaN(radius)) {
-                //  반경이 유효하면 Polygon(circle) 생성
+                //  반경이 유효하면 polygon(circle) 생성
                 const circle = turf.circle(currentPoint, radius, {
                     steps: 64,
                     units: "kilometers",

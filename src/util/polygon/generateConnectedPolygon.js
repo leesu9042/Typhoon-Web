@@ -3,7 +3,7 @@ import {getPolygonCoordsFromPair} from "./getPolygonCoordsFromPair.js";
 
 /**
  * 주어진 GeoJSON FeatureCollection에서,
- * Polygon (circle)과 Point들을 조건에 따라 연결하여
+ * polygon (circle)과 Point들을 조건에 따라 연결하여
  * 하나의 Polygon을 생성.
  *
  * - Polygon에서는 0번째와 중간점을 추출
@@ -32,7 +32,7 @@ export function generateConnectedPolygon(featureCollection,RadiusProperty,ruler)
         if (isPoint(current) && isPoint(next)) continue;
 
         /**
-         * @returns {Array<[number, number]>} Polygon 좌표를 구성할 점 배열
+         * @returns {Array<[number, number]>} polygon 좌표를 구성할 점 배열
          */
         const coords = getPolygonCoordsFromPair(current, next,RadiusProperty, ruler);
         //polygon 만들 좌표 생성 함수

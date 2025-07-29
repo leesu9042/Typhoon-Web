@@ -88,14 +88,14 @@ export function getPolygonCoordsFromPair(current, next,radiusProperty ,ruler) {
 
 
 
-// Polygon 닫기 전에 로그
-    console.log("📌 Polygon 좌표 (닫기 전):", JSON.stringify(coords));
+// polygon 닫기 전에 로그
+    console.log("📌 polygon 좌표 (닫기 전):", JSON.stringify(coords));
 
-// Polygon 닫기
+// polygon 닫기
     coords.push(coords[0]);
 
 // 닫은 뒤 로그
-    console.log("✅ Polygon 좌표 (닫은 후):", JSON.stringify(coords));
+    console.log("✅ polygon 좌표 (닫은 후):", JSON.stringify(coords));
 
 
 
