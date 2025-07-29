@@ -6,7 +6,7 @@ from io import StringIO
 url = "https://apihub.kma.go.kr/api/typ01/url/typ_data.php"
 params = {
     "YY": "2025",
-    "typ": "6",
+    "typ": "9",
     "seq": "1",
     "mode": "1",
     "disp": "1",
