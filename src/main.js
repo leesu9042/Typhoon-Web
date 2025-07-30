@@ -9,7 +9,7 @@ window.CESIUM_BASE_URL = "/static/cesium/";
 import { Cartesian3, createOsmBuildingsAsync, Ion, Math as CesiumMath, Terrain, Viewer , GeoJsonDataSource ,JulianDate ,BillboardGraphics , Color} from "cesium";
 import "cesium/Build/Cesium/Widgets/widgets.css";
 
-import {setupDropdown} from "./shared/components/dropdown/setupDropdown.js";
+import {injectDropdown} from "./shared/components/dropdown/injectDropdown.js";
 import {processTyphoonGeojson} from "./domain/typhoon/errorRadius/processTyphoonGeojson.js";
 import {typhoonListManager} from "./domain/typhoon/service/TyphoonListManager.js";
 import {TyphoonIofoManager} from "./domain/typhoon/service/TyphoonInfoManger.js";
@@ -44,10 +44,11 @@ async function main(){
 
 
     // 2-2 drop down 만들고 listner 설정
-    setupDropdown({
+    injectDropdown({
         wrapperId: "yearDropdownWrapper",
         selectId: "yearSelect",
         items: yearItems,
+        placeholder: "-- 연도를 선택하세요 --",
         onChange: async (selectedYear) => {
             try {
                 await typhoonListManager.load(selectedYear);
@@ -57,10 +58,11 @@ async function main(){
                 // const typhoonItems = typhoonListManager .getNames();
                 // 2. 태풍 드롭다운 생성
 
-                setupDropdown({
+                injectDropdown({
                     wrapperId: "typhoonDropdownWrapper",
                     selectId: "typhoonSelect",
                     items: typhoonItems,
+                    placeholder: "-- 태풍을 선택하세요 --",
                     onChange: async (selectedName) => {
                         const seq = typhoonListManager.getSeqByName(selectedName);
                         const detail = typhoonListManager.getBySeq(seq);
@@ -78,10 +80,11 @@ async function main(){
                         const seqArray = infoManager.getAvailableSeqs()
 
 
-                        setupDropdown({
+                        injectDropdown({
                             wrapperId: "sequenceDropdownWrapper",
                             selectId: "sequenceSelect",
                             items: seqArray,
+                            placeholder: "-- 시퀀스(발표번호)를 선택하세요  --",
                             onChange: async (selectedSeqStr)  => {
                                 const selectedSeq = Number(selectedSeqStr);
 
