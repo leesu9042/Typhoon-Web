@@ -10,7 +10,6 @@ export async function addLineStringToViewer(viewer, lineGeoJson) {
     try {
         const dataSource = await GeoJsonDataSource.load(lineGeoJson);
         viewer.dataSources.add(dataSource);
-        viewer.flyTo(dataSource);
         return dataSource;
     } catch (err) {
         console.error("LineString 로드 실패:", err);
