@@ -20,7 +20,7 @@ export class TyphoonIofoManager {
         if (this.year === year && this.typ === typ && this.list.length > 0) return;
 
         // 예: /public/typhoonList/typhoons_2024_7.json
-        const url = `/typhoonRoute/typhoon_${year}_${typ}.geojson`;
+        const url = `/mockData/typhoonRoute/typhoon_${year}_${typ}.geojson`;
         const res = await fetch(url);  // fetch로 파일 가져오기
 
         if (!res.ok) throw new Error("파일 없음!"); // 실패 시 에러 발생

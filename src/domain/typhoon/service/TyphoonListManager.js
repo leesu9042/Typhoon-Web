@@ -14,7 +14,7 @@ export class TyphoonListManager {
     // ✅ 비동기 메서드: 특정 연도의 태풍 목록을 불러와 this.list에 저장
     async load(year) {
         // 예: /public/typhoonList/typhoons_2024.json
-        const url = `/typhoonList/typhoons_${year}.json`;
+        const url = `/mockData/typhoonList/typhoons_${year}.json`;
         const res = await fetch(url);  // fetch로 파일 가져오기
 
         if (!res.ok) throw new Error("파일 없음!"); // 실패 시 에러 발생
