@@ -1,14 +1,21 @@
+import os
+
 import pandas as pd
 import json
 import requests
 from io import StringIO
 
+
+
+
+# 태풍 고유번호만 받고 , 태풍 정보를 가져와서 geoJSON으로 전부 파싱후 저장
+
+
 url = "https://apihub.kma.go.kr/api/typ01/url/typ_data.php"
 params = {
-    "YY": "2025",
-    "typ": "9",
-    "seq": "1",
-    "mode": "1",
+    "YY": "2024",
+    "typ": "7",
+    "mode": "3",
     "disp": "1",
     "help": "1",
     "authKey": "23ba_lYOSXa22v5WDkl2uA"
@@ -54,7 +61,8 @@ for _, row in df.iterrows():
         'PS': float(row['PS']),
         'DIR': row['DIR'],
         'LOC': row['LOC'],
-        'RAD' : row['RAD']
+        'RAD' : row['RAD'],
+        'SEQ' : row['SEQ'],
         # ... 추가 원하는 속성
     }
 
@@ -74,8 +82,13 @@ geojson = {
     'type': 'FeatureCollection',
     'features': features
 }
+yy = str(df.iloc[-1]['YY'])   # 연도
+typ = str(df.iloc[-1]['TYP']) # 태풍 고유번호
 
-# JS에서 쓸 수 있도록 JSON 저장 (또는 그냥 변수로 전달)
-with open('public/typhoon_features.geojson', 'w', encoding='utf-8') as f:
+save_dir = '../../../public/typhoonRoute'
+os.makedirs(save_dir, exist_ok=True)
+save_path = f'{save_dir}/typhoon_{yy}_{typ}.geojson'
+
+with open(save_path, 'w', encoding='utf-8') as f:
     json.dump(geojson, f, ensure_ascii=False, indent=2)
-print(json.dumps(geojson, ensure_ascii=False, indent=2))
+print(f'저장 완료: {os.path.abspath(save_path)}')

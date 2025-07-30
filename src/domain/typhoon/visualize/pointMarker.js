@@ -34,8 +34,6 @@ export async function PointMarker(viewer, geojson, iconUrl) {
 
                 });
                 entity.point = undefined; // 기본 원(점)은 숨김
-
-
             });
 
             viewer.flyTo(dataSource);
