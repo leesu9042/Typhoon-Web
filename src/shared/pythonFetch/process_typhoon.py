@@ -85,7 +85,7 @@ geojson = {
 yy = str(df.iloc[-1]['YY'])   # 연도
 typ = str(df.iloc[-1]['TYP']) # 태풍 고유번호
 
-save_dir = '../../../public/typhoonRoute'
+save_dir = '../../../public/mockData/typhoonRoute'
 os.makedirs(save_dir, exist_ok=True)
 save_path = f'{save_dir}/typhoon_{yy}_{typ}.geojson'
 
