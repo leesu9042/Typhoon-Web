@@ -1,0 +1,2445 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.0,
+          18.0
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 17.0,
+        "RAD15": 130.0,
+        "PS": 996.0,
+        "DIR": "WSW",
+        "LOC": "필리핀 마닐라 북북서쪽 약 430 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.5,
+          17.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 21.0,
+        "RAD15": 140.0,
+        "PS": 994.0,
+        "DIR": "SSW",
+        "LOC": "필리핀 마닐라 북서쪽 약 380 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.1,
+          16.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 23.0,
+        "RAD15": 150.0,
+        "PS": 992.0,
+        "DIR": "ESE",
+        "LOC": "필리핀 마닐라 북서쪽 약 320 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7,
+          18.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 180.0,
+        "PS": 990.0,
+        "DIR": "NE",
+        "LOC": "필리핀 마닐라 북쪽 약 380 km 부근 육상",
+        "RAD": 110,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.7,
+          20.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 180.0,
+        "PS": 990.0,
+        "DIR": "NE",
+        "LOC": "필리핀 마닐라 북북동쪽 약 640 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.3,
+          23.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 1000.0,
+        "DIR": "NE",
+        "LOC": "일본 오키나와 남서쪽 약 470 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1,
+          17.0
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 21.0,
+        "RAD15": 150.0,
+        "PS": 994.0,
+        "DIR": "SW",
+        "LOC": "필리핀 마닐라 북서쪽 약 410 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7,
+          16.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 180.0,
+        "PS": 990.0,
+        "DIR": "ESE",
+        "LOC": "필리핀 마닐라 북서쪽 약 350 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2,
+          17.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 23.0,
+        "RAD15": 170.0,
+        "PS": 992.0,
+        "DIR": "ENE",
+        "LOC": "필리핀 마닐라 북북서쪽 약 320 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6,
+          18.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 21.0,
+        "RAD15": 150.0,
+        "PS": 994.0,
+        "DIR": "NE",
+        "LOC": "필리핀 마닐라 북쪽 약 480 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.2,
+          22.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 996.0,
+        "DIR": "NE",
+        "LOC": "타이완 타이베이 동남동쪽 약 450 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.2,
+          16.4
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 24.0,
+        "RAD15": 200.0,
+        "PS": 990.0,
+        "DIR": "S",
+        "LOC": "필리핀 마닐라 북서쪽 약 360 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.7,
+          16.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 220.0,
+        "PS": 985.0,
+        "DIR": "ENE",
+        "LOC": "필리핀 마닐라 북북서쪽 약 280 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8,
+          17.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 23.0,
+        "RAD15": 180.0,
+        "PS": 992.0,
+        "DIR": "NE",
+        "LOC": "필리핀 마닐라 북쪽 약 370 km 부근 육상",
+        "RAD": 90,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5,
+          20.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 21.0,
+        "RAD15": 170.0,
+        "PS": 994.0,
+        "DIR": "NE",
+        "LOC": "일본 오키나와 남서쪽 약 780 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.9,
+          24.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 998.0,
+        "DIR": "NNE",
+        "LOC": "일본 오키나와 남서쪽 약 300 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7,
+          16.3
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 25.0,
+        "RAD15": 180.0,
+        "PS": 985.0,
+        "DIR": "E",
+        "LOC": "필리핀 마닐라 북서쪽 약 310 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3,
+          17.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 22.0,
+        "RAD15": 180.0,
+        "PS": 990.0,
+        "DIR": "ENE",
+        "LOC": "필리핀 마닐라 북북서쪽 약 300 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.5,
+          19.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 20.0,
+        "RAD15": 180.0,
+        "PS": 992.0,
+        "DIR": "NE",
+        "LOC": "필리핀 마닐라 북북동쪽 약 580 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.6,
+          22.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 150.0,
+        "PS": 994.0,
+        "DIR": "NE",
+        "LOC": "일본 오키나와 남서쪽 약 560 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4,
+          25.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 996.0,
+        "DIR": "NNE",
+        "LOC": "일본 오키나와 남서쪽 약 210 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2,
+          16.4
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 27.0,
+        "RAD15": 180.0,
+        "PS": 985.0,
+        "DIR": "ENE",
+        "LOC": "필리핀 마닐라 북서쪽 약 280 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4,
+          18.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 22.0,
+        "RAD15": 180.0,
+        "PS": 990.0,
+        "DIR": "NE",
+        "LOC": "필리핀 마닐라 북쪽 약 410 km 부근 육상",
+        "RAD": 50,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6,
+          21.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 20.0,
+        "RAD15": 170.0,
+        "PS": 992.0,
+        "DIR": "NE",
+        "LOC": "일본 오키나와 남서쪽 약 750 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.6,
+          24.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 150.0,
+        "PS": 994.0,
+        "DIR": "NNE",
+        "LOC": "일본 오키나와 남서쪽 약 370 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3,
+          27.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 996.0,
+        "DIR": "NNE",
+        "LOC": "일본 오키나와 북서쪽 약 90 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0,
+          16.7
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 29.0,
+        "RAD15": 180.0,
+        "PS": 980.0,
+        "DIR": "ENE",
+        "LOC": "필리핀 마닐라 북북서쪽 약 260 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.8,
+          20.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 22.0,
+        "RAD15": 180.0,
+        "PS": 990.0,
+        "DIR": "NE",
+        "LOC": "필리핀 마닐라 북북동쪽 약 630 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.9,
+          23.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 20.0,
+        "RAD15": 160.0,
+        "PS": 992.0,
+        "DIR": "NNE",
+        "LOC": "일본 오키나와 남서쪽 약 480 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.0,
+          25.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 150.0,
+        "PS": 994.0,
+        "DIR": "NNE",
+        "LOC": "일본 오키나와 남서쪽 약 240 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7,
+          27.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 996.0,
+        "DIR": "NNE",
+        "LOC": "일본 오키나와 북서쪽 약 160 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3,
+          18.1
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 29.0,
+        "RAD15": 180.0,
+        "PS": 980.0,
+        "DIR": "N",
+        "LOC": "필리핀 마닐라 북쪽 약 400 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.8,
+          21.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 22.0,
+        "RAD15": 170.0,
+        "PS": 990.0,
+        "DIR": "NE",
+        "LOC": "일본 오키나와 남서쪽 약 690 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.6,
+          24.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 20.0,
+        "RAD15": 160.0,
+        "PS": 992.0,
+        "DIR": "NNE",
+        "LOC": "일본 오키나와 남서쪽 약 320 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4,
+          26.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 150.0,
+        "PS": 994.0,
+        "DIR": "NNE",
+        "LOC": "일본 오키나와 서남서쪽 약 170 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8,
+          26.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 998.0,
+        "DIR": "NNE",
+        "LOC": "일본 오키나와 서북서쪽 약 120 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9,
+          19.6
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 25.0,
+        "RAD15": 180.0,
+        "PS": 985.0,
+        "DIR": "NNE",
+        "LOC": "필리핀 마닐라 북쪽 약 560 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.3,
+          23.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 21.0,
+        "RAD15": 170.0,
+        "PS": 990.0,
+        "DIR": "NE",
+        "LOC": "일본 오키나와 남서쪽 약 510 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.0,
+          25.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 160.0,
+        "PS": 994.0,
+        "DIR": "NE",
+        "LOC": "일본 오키나와 남서쪽 약 240 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7,
+          26.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 996.0,
+        "DIR": "NNE",
+        "LOC": "일본 오키나와 서쪽 약 130 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.7,
+          21.5
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 23.0,
+        "RAD15": 180.0,
+        "PS": 990.0,
+        "DIR": "NE",
+        "LOC": "타이완 타이베이 남남동쪽 약 450 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.8,
+          24.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 21.0,
+        "RAD15": 170.0,
+        "PS": 992.0,
+        "DIR": "NNE",
+        "LOC": "타이완 타이베이 동쪽 약 330 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4,
+          26.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 996.0,
+        "DIR": "NE",
+        "LOC": "일본 오키나와 서쪽 약 160 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.8,
+          23.5
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 19.0,
+        "RAD15": 170.0,
+        "PS": 992.0,
+        "DIR": "NNE",
+        "LOC": "타이완 타이베이 동남동쪽 약 370 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7,
+          26.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 996.0,
+        "DIR": "NNE",
+        "LOC": "일본 오키나와 서쪽 약 230 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7,
+          25.6
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 996.0,
+        "DIR": "NE",
+        "LOC": "일본 오키나와 서남서쪽 약 250 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.7,
+          26.0
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 20.0,
+        "RAD15": 200.0,
+        "PS": 992.0,
+        "DIR": "SE",
+        "LOC": "일본 오키나와 동남동쪽 약 190 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8,
+          27.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 220.0,
+        "PS": 990.0,
+        "DIR": "NW",
+        "LOC": "일본 오키나와 북북서쪽 약 70 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7,
+          27.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 220.0,
+        "PS": 990.0,
+        "DIR": "WNW",
+        "LOC": "일본 오키나와 서북서쪽 약 260 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6,
+          28.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 220.0,
+        "PS": 990.0,
+        "DIR": "WNW",
+        "LOC": "일본 오키나와 서북서쪽 약 490 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8,
+          29.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 220.0,
+        "PS": 990.0,
+        "DIR": "WNW",
+        "LOC": "일본 오키나와 서북서쪽 약 680 km 부근 육상",
+        "RAD": 130,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5,
+          31.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 220.0,
+        "PS": 990.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 서쪽 약 90 km 부근 육상",
+        "RAD": 190,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1,
+          32.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 220.0,
+        "PS": 990.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 서북서쪽 약 150 km 부근 육상",
+        "RAD": 280,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6,
+          32.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 994.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 북서쪽 약 240 km 부근 육상",
+        "RAD": 410,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.3,
+          26.0
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 24.0,
+        "RAD15": 220.0,
+        "PS": 990.0,
+        "DIR": "WNW",
+        "LOC": "일본 오키나와 동남동쪽 약 150 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8,
+          26.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 230.0,
+        "PS": 985.0,
+        "DIR": "WNW",
+        "LOC": "일본 오키나와 서북서쪽 약 120 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.7,
+          27.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 230.0,
+        "PS": 985.0,
+        "DIR": "WNW",
+        "LOC": "일본 오키나와 서북서쪽 약 350 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.9,
+          28.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 220.0,
+        "PS": 990.0,
+        "DIR": "WNW",
+        "LOC": "중국 상하이 남남동쪽 약 320 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5,
+          29.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 220.0,
+        "PS": 990.0,
+        "DIR": "WNW",
+        "LOC": "중국 상하이 남쪽 약 200 km 부근 육상",
+        "RAD": 130,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4,
+          31.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 220.0,
+        "PS": 990.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 서쪽 약 100 km 부근 육상",
+        "RAD": 190,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0,
+          32.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 21.0,
+        "RAD15": 210.0,
+        "PS": 994.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 북서쪽 약 200 km 부근 육상",
+        "RAD": 280,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6,
+          33.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 998.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 북서쪽 약 310 km 부근 육상",
+        "RAD": 410,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.9,
+          26.3
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 27.0,
+        "RAD15": 230.0,
+        "PS": 985.0,
+        "DIR": "WSW",
+        "LOC": "일본 오키나와 남남서쪽 약 30 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7,
+          27.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 230.0,
+        "PS": 985.0,
+        "DIR": "WNW",
+        "LOC": "일본 오키나와 서북서쪽 약 240 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.7,
+          28.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 230.0,
+        "PS": 985.0,
+        "DIR": "WNW",
+        "LOC": "중국 상하이 남남동쪽 약 410 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.1,
+          29.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 220.0,
+        "PS": 990.0,
+        "DIR": "WNW",
+        "LOC": "중국 상하이 남남동쪽 약 270 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0,
+          30.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 220.0,
+        "PS": 990.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남남서쪽 약 150 km 부근 육상",
+        "RAD": 130,
+        "SEQ": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0,
+          31.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 23.0,
+        "RAD15": 200.0,
+        "PS": 992.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 서북서쪽 약 140 km 부근 육상",
+        "RAD": 190,
+        "SEQ": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5,
+          33.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 996.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 북서쪽 약 260 km 부근 육상",
+        "RAD": 280,
+        "SEQ": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.4,
+          26.5
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 25.0,
+        "RAD15": 230.0,
+        "PS": 985.0,
+        "DIR": "NNE",
+        "LOC": "일본 오키나와 동남동쪽 약 40 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.1,
+          27.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 25.0,
+        "RAD15": 230.0,
+        "PS": 985.0,
+        "DIR": "WNW",
+        "LOC": "일본 오키나와 서북서쪽 약 310 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3,
+          28.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 25.0,
+        "RAD15": 230.0,
+        "PS": 985.0,
+        "DIR": "WNW",
+        "LOC": "중국 상하이 남남동쪽 약 390 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8,
+          29.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 23.0,
+        "RAD15": 220.0,
+        "PS": 990.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남쪽 약 190 km 부근 육상",
+        "RAD": 110,
+        "SEQ": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8,
+          30.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 21.0,
+        "RAD15": 210.0,
+        "PS": 992.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남서쪽 약 90 km 부근 육상",
+        "RAD": 130,
+        "SEQ": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0,
+          31.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 190.0,
+        "PS": 994.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 서북서쪽 약 150 km 부근 육상",
+        "RAD": 190,
+        "SEQ": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.1,
+          33.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 996.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 북서쪽 약 280 km 부근 육상",
+        "RAD": 280,
+        "SEQ": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7,
+          26.9
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 24.0,
+        "RAD15": 230.0,
+        "PS": 990.0,
+        "DIR": "W",
+        "LOC": "일본 오키나와 서북서쪽 약 130 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.4,
+          27.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 230.0,
+        "PS": 990.0,
+        "DIR": "WNW",
+        "LOC": "일본 오키나와 서북서쪽 약 370 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.1,
+          28.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 25.0,
+        "RAD15": 250.0,
+        "PS": 985.0,
+        "DIR": "WNW",
+        "LOC": "중국 상하이 남남동쪽 약 370 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.1,
+          29.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 25.0,
+        "RAD15": 220.0,
+        "PS": 985.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남남동쪽 약 210 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1,
+          30.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 210.0,
+        "PS": 990.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남남서쪽 약 80 km 부근 육상",
+        "RAD": 130,
+        "SEQ": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0,
+          32.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 992.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 서북서쪽 약 150 km 부근 육상",
+        "RAD": 190,
+        "SEQ": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4,
+          33.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 996.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 북서쪽 약 260 km 부근 육상",
+        "RAD": 280,
+        "SEQ": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.1,
+          26.8
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 20.0,
+        "RAD15": 230.0,
+        "PS": 990.0,
+        "DIR": "W",
+        "LOC": "일본 오키나와 서쪽 약 290 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.7,
+          27.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 22.0,
+        "RAD15": 240.0,
+        "PS": 985.0,
+        "DIR": "WNW",
+        "LOC": "중국 상하이 남남동쪽 약 490 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.6,
+          28.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 25.0,
+        "RAD15": 250.0,
+        "PS": 985.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남남동쪽 약 310 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.9,
+          29.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 22.0,
+        "RAD15": 230.0,
+        "PS": 985.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 남남동쪽 약 190 km 부근 육상",
+        "RAD": 110,
+        "SEQ": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1,
+          30.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 20.0,
+        "RAD15": 200.0,
+        "PS": 990.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남남서쪽 약 80 km 부근 육상",
+        "RAD": 130,
+        "SEQ": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8,
+          32.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 992.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 서북서쪽 약 180 km 부근 육상",
+        "RAD": 190,
+        "SEQ": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5,
+          33.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 996.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 북서쪽 약 260 km 부근 육상",
+        "RAD": 280,
+        "SEQ": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.8,
+          27.4
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 20.0,
+        "RAD15": 250.0,
+        "PS": 985.0,
+        "DIR": "NNW",
+        "LOC": "일본 오키나와 서북서쪽 약 330 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4,
+          28.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 20.0,
+        "RAD15": 250.0,
+        "PS": 985.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남남동쪽 약 390 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.4,
+          29.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 20.0,
+        "RAD15": 240.0,
+        "PS": 985.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 남남동쪽 약 220 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3,
+          30.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 19.0,
+        "RAD15": 200.0,
+        "PS": 990.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남남서쪽 약 70 km 부근 육상",
+        "RAD": 110,
+        "SEQ": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5,
+          31.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 19.0,
+        "RAD15": 200.0,
+        "PS": 990.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남서쪽 약 60 km 부근 육상",
+        "RAD": 130,
+        "SEQ": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3,
+          32.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 994.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 북서쪽 약 250 km 부근 육상",
+        "RAD": 190,
+        "SEQ": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2,
+          33.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 998.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 북서쪽 약 310 km 부근 육상",
+        "RAD": 280,
+        "SEQ": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.0,
+          28.0
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 20.0,
+        "RAD15": 250.0,
+        "PS": 985.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남남동쪽 약 450 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.9,
+          28.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 20.0,
+        "RAD15": 250.0,
+        "PS": 985.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남남동쪽 약 310 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8,
+          30.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 20.0,
+        "RAD15": 220.0,
+        "PS": 985.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남남동쪽 약 140 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9,
+          31.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 19.0,
+        "RAD15": 200.0,
+        "PS": 990.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 서남서쪽 약 60 km 부근 육상",
+        "RAD": 110,
+        "SEQ": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2,
+          31.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 19.0,
+        "RAD15": 200.0,
+        "PS": 990.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 서북서쪽 약 130 km 부근 육상",
+        "RAD": 130,
+        "SEQ": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2,
+          33.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 994.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 북서쪽 약 280 km 부근 육상",
+        "RAD": 190,
+        "SEQ": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2,
+          33.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 998.0,
+        "DIR": "N",
+        "LOC": "중국 상하이 북서쪽 약 310 km 부근 육상",
+        "RAD": 280,
+        "SEQ": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4,
+          28.5
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 20.0,
+        "RAD15": 240.0,
+        "PS": 985.0,
+        "DIR": "WNW",
+        "LOC": "중국 상하이 남남동쪽 약 370 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.4,
+          29.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 20.0,
+        "RAD15": 240.0,
+        "PS": 985.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남남동쪽 약 220 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4,
+          30.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 20.0,
+        "RAD15": 210.0,
+        "PS": 985.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남쪽 약 80 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6,
+          31.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 19.0,
+        "RAD15": 200.0,
+        "PS": 990.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 서쪽 약 80 km 부근 육상",
+        "RAD": 110,
+        "SEQ": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9,
+          32.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 19.0,
+        "RAD15": 200.0,
+        "PS": 990.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 서북서쪽 약 170 km 부근 육상",
+        "RAD": 130,
+        "SEQ": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2,
+          33.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 994.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 북서쪽 약 280 km 부근 육상",
+        "RAD": 190,
+        "SEQ": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.1,
+          33.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 998.0,
+        "DIR": "N",
+        "LOC": "중국 상하이 북서쪽 약 350 km 부근 육상",
+        "RAD": 280,
+        "SEQ": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.1,
+          29.0
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 22.0,
+        "RAD15": 230.0,
+        "PS": 985.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 남남동쪽 약 310 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.9,
+          30.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 22.0,
+        "RAD15": 230.0,
+        "PS": 985.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남남동쪽 약 140 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0,
+          31.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 20.0,
+        "RAD15": 210.0,
+        "PS": 985.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남서쪽 약 60 km 부근 육상",
+        "RAD": 90,
+        "SEQ": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2,
+          31.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 19.0,
+        "RAD15": 200.0,
+        "PS": 990.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 서북서쪽 약 130 km 부근 육상",
+        "RAD": 110,
+        "SEQ": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.7,
+          32.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 190.0,
+        "PS": 992.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 서북서쪽 약 200 km 부근 육상",
+        "RAD": 130,
+        "SEQ": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.1,
+          33.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 994.0,
+        "DIR": "NNW",
+        "LOC": "중국 상하이 북서쪽 약 300 km 부근 육상",
+        "RAD": 190,
+        "SEQ": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.3,
+          30.1
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 23.0,
+        "RAD15": 200.0,
+        "PS": 980.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남남동쪽 약 170 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6,
+          30.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 22.0,
+        "RAD15": 200.0,
+        "PS": 985.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 남남동쪽 약 70 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7,
+          31.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 20.0,
+        "RAD15": 190.0,
+        "PS": 990.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 서북서쪽 약 80 km 부근 육상",
+        "RAD": 90,
+        "SEQ": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9,
+          32.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 994.0,
+        "DIR": "NW",
+        "LOC": "중국 상하이 서북서쪽 약 170 km 부근 육상",
+        "RAD": 110,
+        "SEQ": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.1,
+          32.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 996.0,
+        "DIR": "WNW",
+        "LOC": "중국 상하이 서북서쪽 약 260 km 부근 육상",
+        "RAD": 130,
+        "SEQ": 22
+      }
+    }
+  ]
+}

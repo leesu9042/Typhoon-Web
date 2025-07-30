@@ -1,0 +1,4005 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.6,
+          14.3
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 18.0,
+        "RAD15": 230.0,
+        "PS": 1002.0,
+        "DIR": "NNW",
+        "LOC": "괌 북서쪽 약 160 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.6,
+          16.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 19.0,
+        "RAD15": 270.0,
+        "PS": 1000.0,
+        "DIR": "N",
+        "LOC": "괌 북북서쪽 약 310 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.7,
+          17.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 20.0,
+        "RAD15": 300.0,
+        "PS": 996.0,
+        "DIR": "N",
+        "LOC": "괌 북북서쪽 약 420 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.9,
+          17.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 23.0,
+        "RAD15": 310.0,
+        "PS": 992.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 490 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2,
+          18.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 330.0,
+        "PS": 990.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 600 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7,
+          21.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 350.0,
+        "PS": 985.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 910 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9,
+          25.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 370.0,
+        "PS": 980.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1200 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6,
+          28.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 380.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 970 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.6,
+          14.9
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 18.0,
+        "RAD15": 200.0,
+        "PS": 1002.0,
+        "DIR": "N",
+        "LOC": "괌 북서쪽 약 200 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.6,
+          16.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 19.0,
+        "RAD15": 250.0,
+        "PS": 998.0,
+        "DIR": "N",
+        "LOC": "괌 북북서쪽 약 340 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.7,
+          17.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 21.0,
+        "RAD15": 300.0,
+        "PS": 994.0,
+        "DIR": "N",
+        "LOC": "괌 북북서쪽 약 460 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.0,
+          18.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 320.0,
+        "PS": 990.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 510 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3,
+          19.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 330.0,
+        "PS": 985.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 610 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9,
+          23.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 350.0,
+        "PS": 980.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1490 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3,
+          26.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 370.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1130 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4,
+          28.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 380.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1010 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.4,
+          15.9
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 18.0,
+        "RAD15": 210.0,
+        "PS": 1002.0,
+        "DIR": "NNW",
+        "LOC": "괌 북북서쪽 약 310 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.6,
+          17.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 20.0,
+        "RAD15": 250.0,
+        "PS": 996.0,
+        "DIR": "N",
+        "LOC": "괌 북북서쪽 약 420 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1,
+          18.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 23.0,
+        "RAD15": 300.0,
+        "PS": 992.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 530 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5,
+          19.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 320.0,
+        "PS": 990.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 620 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1,
+          20.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 770 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4,
+          24.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 360.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 1190 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3,
+          27.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 380.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1080 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2,
+          29.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 360.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남동쪽 약 840 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1,
+          16.2
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 18.0,
+        "RAD15": 210.0,
+        "PS": 1000.0,
+        "DIR": "NNW",
+        "LOC": "괌 북북서쪽 약 350 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8,
+          17.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 21.0,
+        "RAD15": 280.0,
+        "PS": 994.0,
+        "DIR": "NNE",
+        "LOC": "괌 북북서쪽 약 480 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3,
+          18.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 310.0,
+        "PS": 990.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 570 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8,
+          19.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 330.0,
+        "PS": 985.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 680 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3,
+          21.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 850 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7,
+          25.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 1320 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8,
+          28.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 380.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남동쪽 약 1020 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.3,
+          30.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 360.0,
+        "PS": 980.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 남동쪽 약 920 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2,
+          17.0
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 18.0,
+        "RAD15": 230.0,
+        "PS": 1000.0,
+        "DIR": "N",
+        "LOC": "괌 북북서쪽 약 430 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1,
+          18.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 23.0,
+        "RAD15": 300.0,
+        "PS": 992.0,
+        "DIR": "NE",
+        "LOC": "괌 북쪽 약 530 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6,
+          19.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 320.0,
+        "PS": 985.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 620 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1,
+          20.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 730 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4,
+          22.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 360.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 950 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.2,
+          26.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 380.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1230 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.4,
+          28.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 370.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남동쪽 약 1020 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.7,
+          31.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 360.0,
+        "PS": 980.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 동남동쪽 약 1030 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.3,
+          17.2
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 19.0,
+        "RAD15": 250.0,
+        "PS": 998.0,
+        "DIR": "N",
+        "LOC": "괌 북북서쪽 약 440 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2,
+          18.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 23.0,
+        "RAD15": 280.0,
+        "PS": 992.0,
+        "DIR": "NE",
+        "LOC": "괌 북쪽 약 550 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9,
+          19.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 320.0,
+        "PS": 985.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 670 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2,
+          20.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 350.0,
+        "PS": 980.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 820 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6,
+          22.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 370.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 1050 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7,
+          26.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 380.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1130 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9,
+          29.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 370.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남동쪽 약 910 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1,
+          31.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 360.0,
+        "PS": 980.0,
+        "DIR": "ENE",
+        "LOC": "일본 도쿄 동남동쪽 약 1010 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 20.0,
+        "RAD15": 260.0,
+        "PS": 996.0,
+        "DIR": "ENE",
+        "LOC": "괌 북북서쪽 약 470 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6,
+          18.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 25.0,
+        "RAD15": 300.0,
+        "PS": 985.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 600 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1,
+          19.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 700 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4,
+          21.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 360.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 910 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8,
+          23.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 1160 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7,
+          27.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 380.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남동쪽 약 1050 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.0,
+          29.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 370.0,
+        "PS": 975.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 남동쪽 약 960 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4,
+          30.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 24.0,
+        "RAD15": 360.0,
+        "PS": 990.0,
+        "DIR": "ENE",
+        "LOC": "일본 도쿄 동남동쪽 약 1140 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.7,
+          17.8
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 23.0,
+        "RAD15": 300.0,
+        "PS": 992.0,
+        "DIR": "N",
+        "LOC": "괌 북북서쪽 약 490 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8,
+          19.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 320.0,
+        "PS": 980.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 660 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3,
+          20.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 780 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6,
+          22.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 1020 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8,
+          25.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 1280 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6,
+          28.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남동쪽 약 990 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8,
+          29.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 350.0,
+        "PS": 980.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남동쪽 약 960 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1,
+          30.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 350.0,
+        "PS": 980.0,
+        "DIR": "ENE",
+        "LOC": "일본 도쿄 동남동쪽 약 1050 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8,
+          17.8
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 24.0,
+        "RAD15": 320.0,
+        "PS": 990.0,
+        "DIR": "E",
+        "LOC": "괌 북북서쪽 약 490 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9,
+          19.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 640 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3,
+          21.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 360.0,
+        "PS": 975.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 830 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7,
+          23.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 1110 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6,
+          26.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1180 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1,
+          28.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남동쪽 약 940 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0,
+          29.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남동쪽 약 900 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.4,
+          30.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "ENE",
+        "LOC": "일본 도쿄 남동쪽 약 1010 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2,
+          17.9
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 24.0,
+        "RAD15": 320.0,
+        "PS": 990.0,
+        "DIR": "NE",
+        "LOC": "괌 북쪽 약 490 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1,
+          19.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 710 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.5,
+          22.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 360.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 970 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.5,
+          24.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 1240 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2,
+          26.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1120 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4,
+          27.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 360.0,
+        "PS": 975.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 970 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1,
+          29.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 남동쪽 약 890 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.1,
+          29.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "ENE",
+        "LOC": "일본 도쿄 남동쪽 약 890 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7,
+          18.3
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 27.0,
+        "RAD15": 330.0,
+        "PS": 985.0,
+        "DIR": "NNE",
+        "LOC": "괌 북쪽 약 530 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1,
+          20.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 350.0,
+        "PS": 980.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 780 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4,
+          23.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 370.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1490 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0,
+          25.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1230 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4,
+          27.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 1040 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.5,
+          28.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 360.0,
+        "PS": 975.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 870 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1,
+          29.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 남남동쪽 약 800 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0,
+          30.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 330.0,
+        "PS": 985.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남동쪽 약 770 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0,
+          19.4
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 660 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4,
+          21.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 360.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 920 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.5,
+          24.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 370.0,
+        "PS": 965.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1370 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7,
+          26.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 370.0,
+        "PS": 965.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 1120 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2,
+          27.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 990 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.5,
+          28.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 360.0,
+        "PS": 975.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 840 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3,
+          29.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남동쪽 약 790 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8,
+          31.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 330.0,
+        "PS": 985.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남동쪽 약 770 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4,
+          20.5
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 780 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.5,
+          23.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 1070 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.5,
+          25.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1240 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7,
+          27.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 1060 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1,
+          28.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 940 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8,
+          29.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 830 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9,
+          29.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남동쪽 약 800 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.6,
+          31.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남동쪽 약 790 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3,
+          21.4
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 880 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6,
+          24.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 1220 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2,
+          26.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1100 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6,
+          27.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 1000 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.0,
+          28.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 890 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6,
+          29.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남동쪽 약 840 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6,
+          30.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남동쪽 약 820 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 동남동쪽 약 720 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4,
+          23.3
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "N",
+        "LOC": "괌 북쪽 약 1090 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.5,
+          25.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1230 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9,
+          27.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 1040 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2,
+          28.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 940 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.7,
+          28.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 870 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4,
+          28.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "ENE",
+        "LOC": "일본 도쿄 남남동쪽 약 870 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0,
+          30.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남동쪽 약 820 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.7,
+          33.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 동남동쪽 약 670 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4,
+          24.4
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "NNW",
+        "LOC": "괌 북쪽 약 1210 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0,
+          26.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1120 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.9,
+          27.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 980 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.5,
+          28.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 920 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.4,
+          28.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 880 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8,
+          28.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "E",
+        "LOC": "일본 도쿄 남남동쪽 약 920 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.6,
+          30.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남동쪽 약 850 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.4,
+          33.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 동남동쪽 약 740 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2,
+          25.9
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 1200 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5,
+          27.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 1030 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.6,
+          27.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 950 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1,
+          28.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "WNW",
+        "LOC": "일본 도쿄 남남동쪽 약 910 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.4,
+          28.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 남남동쪽 약 870 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0,
+          28.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "ENE",
+        "LOC": "일본 도쿄 남동쪽 약 900 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.5,
+          31.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 남동쪽 약 790 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.1,
+          34.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 동쪽 약 680 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5,
+          26.8
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 1080 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.7,
+          27.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 950 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9,
+          28.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 870 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9,
+          28.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 37.0,
+        "RAD15": 380.0,
+        "PS": 965.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 820 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2,
+          29.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 370.0,
+        "PS": 970.0,
+        "DIR": "ENE",
+        "LOC": "일본 도쿄 남남동쪽 약 810 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6,
+          30.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 남동쪽 약 730 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8,
+          32.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남동쪽 약 610 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0,
+          33.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 동남동쪽 약 520 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2,
+          27.4
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 35.0,
+        "RAD15": 380.0,
+        "PS": 970.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 1010 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2,
+          28.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 380.0,
+        "PS": 970.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 890 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.6,
+          28.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 380.0,
+        "PS": 970.0,
+        "DIR": "WNW",
+        "LOC": "일본 도쿄 남남동쪽 약 850 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5,
+          28.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 35.0,
+        "RAD15": 380.0,
+        "PS": 970.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 830 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0,
+          28.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 370.0,
+        "PS": 975.0,
+        "DIR": "ENE",
+        "LOC": "일본 도쿄 남남동쪽 약 820 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2,
+          29.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 730 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.6,
+          30.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 330.0,
+        "PS": 980.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 600 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.8,
+          33.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 330.0,
+        "PS": 985.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남동쪽 약 350 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.5,
+          27.7
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 35.0,
+        "RAD15": 380.0,
+        "PS": 970.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 950 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9,
+          28.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 380.0,
+        "PS": 975.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 870 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5,
+          28.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 380.0,
+        "PS": 975.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 830 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0,
+          28.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 380.0,
+        "PS": 975.0,
+        "DIR": "ENE",
+        "LOC": "일본 도쿄 남남동쪽 약 820 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1,
+          29.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 370.0,
+        "PS": 975.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남남동쪽 약 810 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0,
+          29.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 350.0,
+        "PS": 980.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 720 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.6,
+          31.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 330.0,
+        "PS": 980.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 510 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.5,
+          34.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 330.0,
+        "PS": 985.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남동쪽 약 250 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1,
+          28.1
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 32.0,
+        "RAD15": 380.0,
+        "PS": 975.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 900 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.6,
+          28.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 380.0,
+        "PS": 975.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 840 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.7,
+          28.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 380.0,
+        "PS": 975.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 남남동쪽 약 820 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1,
+          28.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 380.0,
+        "PS": 975.0,
+        "DIR": "ENE",
+        "LOC": "일본 도쿄 남남동쪽 약 820 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1,
+          29.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 380.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 800 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.7,
+          30.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 350.0,
+        "PS": 980.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 680 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.6,
+          32.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 350.0,
+        "PS": 980.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 380 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.5,
+          34.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 330.0,
+        "PS": 985.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 남동쪽 약 210 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9,
+          28.5
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 850 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.6,
+          28.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "WNW",
+        "LOC": "일본 도쿄 남남동쪽 약 830 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9,
+          28.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남남동쪽 약 820 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1,
+          29.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 남남동쪽 약 790 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.8,
+          29.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 720 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.9,
+          31.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 440 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.9,
+          33.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남쪽 약 240 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.3,
+          35.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 동쪽 약 320 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9,
+          28.7
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 830 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.7,
+          28.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "W",
+        "LOC": "일본 도쿄 남남동쪽 약 820 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0,
+          29.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남남동쪽 약 800 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1,
+          29.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 780 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.6,
+          30.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 680 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.4,
+          32.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남쪽 약 340 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.9,
+          34.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 남동쪽 약 140 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.4,
+          37.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "ENE",
+        "LOC": "일본 도쿄 동북동쪽 약 620 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.8,
+          28.8
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남남동쪽 약 820 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.8,
+          28.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NE",
+        "LOC": "일본 도쿄 남남동쪽 약 820 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0,
+          29.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 남남동쪽 약 780 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9,
+          29.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남남동쪽 약 740 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.9,
+          30.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 32.0,
+        "RAD15": 350.0,
+        "PS": 975.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 570 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.2,
+          33.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남쪽 약 270 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0,
+          35.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 동쪽 약 210 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.2,
+          37.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 340.0,
+        "PS": 980.0,
+        "DIR": "ENE",
+        "LOC": "일본 도쿄 동북동쪽 약 790 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9,
+          28.9
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 27.0,
+        "RAD15": 340.0,
+        "PS": 985.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 남남동쪽 약 810 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9,
+          29.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 340.0,
+        "PS": 985.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남남동쪽 약 800 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0,
+          29.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 340.0,
+        "PS": 985.0,
+        "DIR": "NNE",
+        "LOC": "일본 도쿄 남남동쪽 약 770 km 부근 해상",
+        "RAD": 90,
+        "SEQ": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4,
+          30.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 350.0,
+        "PS": 980.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 670 km 부근 해상",
+        "RAD": 110,
+        "SEQ": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.0,
+          31.5
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 350.0,
+        "PS": 980.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남남동쪽 약 480 km 부근 해상",
+        "RAD": 130,
+        "SEQ": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7,
+          33.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 350.0,
+        "PS": 980.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남쪽 약 250 km 부근 해상",
+        "RAD": 190,
+        "SEQ": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0,
+          36.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 29.0,
+        "RAD15": 350.0,
+        "PS": 980.0,
+        "DIR": "NE",
+        "LOC": "일본 센다이 남동쪽 약 300 km 부근 해상",
+        "RAD": 280,
+        "SEQ": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1,
+          38.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 27.0,
+        "RAD15": 340.0,
+        "PS": 985.0,
+        "DIR": "ENE",
+        "LOC": "일본 센다이 동쪽 약 800 km 부근 해상",
+        "RAD": 410,
+        "SEQ": 25
+      }
+    }
+  ]
+}

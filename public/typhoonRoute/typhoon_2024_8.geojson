@@ -1,0 +1,585 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4,
+          26.5
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 1002.0,
+        "DIR": "ENE",
+        "LOC": "일본 도쿄 남동쪽 약 1440 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.0,
+          29.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 1002.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남동쪽 약 1220 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.8,
+          31.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 1002.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 동남동쪽 약 950 km 부근 해상",
+        "RAD": 100,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.4,
+          34.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 1004.0,
+        "DIR": "N",
+        "LOC": "일본 센다이 동남동쪽 약 770 km 부근 해상",
+        "RAD": 120,
+        "SEQ": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.0,
+          27.1
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 1002.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남동쪽 약 1360 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.4,
+          30.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 1002.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 동남동쪽 약 1080 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.5,
+          33.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 1002.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 동남동쪽 약 840 km 부근 해상",
+        "RAD": 100,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.3,
+          36.6
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 1004.0,
+        "DIR": "N",
+        "LOC": "일본 센다이 동남동쪽 약 770 km 부근 해상",
+        "RAD": 120,
+        "SEQ": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.9,
+          27.7
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 1002.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 남동쪽 약 1310 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.8,
+          31.2
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 1002.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 동남동쪽 약 980 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.2,
+          34.8
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 1002.0,
+        "DIR": "N",
+        "LOC": "일본 센다이 동남동쪽 약 760 km 부근 해상",
+        "RAD": 100,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2,
+          38.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 1004.0,
+        "DIR": "NNE",
+        "LOC": "일본 센다이 동쪽 약 820 km 부근 해상",
+        "RAD": 120,
+        "SEQ": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.4,
+          29.3
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 1002.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 남동쪽 약 1150 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.0,
+          32.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 1002.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 동남동쪽 약 850 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.7,
+          36.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 1002.0,
+        "DIR": "N",
+        "LOC": "일본 센다이 동남동쪽 약 650 km 부근 해상",
+        "RAD": 100,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6,
+          39.0
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 1004.0,
+        "DIR": "NE",
+        "LOC": "일본 센다이 동쪽 약 850 km 부근 해상",
+        "RAD": 120,
+        "SEQ": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.2,
+          30.3
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 1002.0,
+        "DIR": "NW",
+        "LOC": "일본 도쿄 남동쪽 약 990 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.2,
+          34.4
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 180.0,
+        "PS": 1002.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 동쪽 약 690 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1,
+          38.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 1004.0,
+        "DIR": "NNE",
+        "LOC": "일본 센다이 동쪽 약 720 km 부근 해상",
+        "RAD": 100,
+        "SEQ": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.3,
+          31.6
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 18.0,
+        "RAD15": 160.0,
+        "PS": 1002.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 동남동쪽 약 830 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.4,
+          36.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 150.0,
+        "PS": 1002.0,
+        "DIR": "N",
+        "LOC": "일본 센다이 동남동쪽 약 630 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.5,
+          39.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 1004.0,
+        "DIR": "NNE",
+        "LOC": "일본 센다이 동북동쪽 약 760 km 부근 해상",
+        "RAD": 100,
+        "SEQ": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.6,
+          34.1
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 18.0,
+        "RAD15": 160.0,
+        "PS": 1002.0,
+        "DIR": "NNW",
+        "LOC": "일본 도쿄 동남동쪽 약 650 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.6,
+          38.1
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 150.0,
+        "PS": 1002.0,
+        "DIR": "N",
+        "LOC": "일본 센다이 동쪽 약 590 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.4,
+          39.9
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 1006.0,
+        "DIR": "ENE",
+        "LOC": "일본 삿포로 동남동쪽 약 910 km 부근 해상",
+        "RAD": 100,
+        "SEQ": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.4,
+          35.8
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 18.0,
+        "RAD15": 160.0,
+        "PS": 1004.0,
+        "DIR": "N",
+        "LOC": "일본 도쿄 동쪽 약 600 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.5,
+          39.3
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 18.0,
+        "RAD15": 150.0,
+        "PS": 1004.0,
+        "DIR": "NE",
+        "LOC": "일본 센다이 동북동쪽 약 760 km 부근 해상",
+        "RAD": 50,
+        "SEQ": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.6,
+          40.7
+        ]
+      },
+      "properties": {
+        "FT": 1,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 1006.0,
+        "DIR": "ENE",
+        "LOC": "일본 삿포로 동쪽 약 1130 km 부근 해상",
+        "RAD": 100,
+        "SEQ": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.1,
+          37.2
+        ]
+      },
+      "properties": {
+        "FT": 0,
+        "WS": 15.0,
+        "RAD15": -999.0,
+        "PS": 1006.0,
+        "DIR": "NNE",
+        "LOC": "일본 센다이 동쪽 약 560 km 부근 해상",
+        "RAD": 0,
+        "SEQ": 9
+      }
+    }
+  ]
+}
