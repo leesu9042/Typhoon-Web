@@ -26,7 +26,6 @@ export function getPolygonCoordsFromPair(current, next,radiusProperty ,ruler) {
 
 
         const circlePropertyValue = parseFloat(circleFeature.properties[radiusProperty]) || 0
-        const pointPropertyValue = parseFloat(pointFeature.properties[radiusProperty]) || 0;
 
 
 
