@@ -111,6 +111,7 @@ export function processPolygons(polygons) {
 
     return result;
 }
+
 /**
  * Mapbox 지도에 태풍 반경(원 + 연결 폴리곤) 레이어를 추가하는 함수
  * @param {Object} data - 태풍 관측/예측 데이터
