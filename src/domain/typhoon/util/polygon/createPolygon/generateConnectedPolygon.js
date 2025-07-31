@@ -17,6 +17,7 @@ import {getPolygonCoordsFromPair} from "./getPolygonCoordsFromPair.js";
 export function generateConnectedPolygon(featureCollection,RadiusProperty,ruler) {
 
     const isPoint = f => f.geometry.type === "Point";
+
     const subPolygons  = [];
     const features = featureCollection.features;
 
@@ -26,7 +27,7 @@ export function generateConnectedPolygon(featureCollection,RadiusProperty,ruler)
         const next = features[i + 1];
 
 
-        if (!current || !next) continue;  // ✅ 방어 코드 추가
+        if (!current || !next) continue;  //  방어 코드 추가
 
 
         if (isPoint(current) && isPoint(next)) continue;
@@ -53,7 +54,6 @@ export function generateConnectedPolygon(featureCollection,RadiusProperty,ruler)
         subPolygons.push(turf.polygon([coords])); // ✅ 배열로 한 번 더 감싸기
 
 
-        var multiPt = turf.multiPoint(coords);
 
 
     }
@@ -64,6 +64,15 @@ export function generateConnectedPolygon(featureCollection,RadiusProperty,ruler)
 
 
     console.log("최종 polygon 좌표:", JSON.stringify(featureCollection1));
+
+    if (featureCollection1.features.length === 1) {
+        console.log(" polygon이 1개 → union 없이 그대로 반환");
+        return featureCollection1.features[0]; // Feature만 반환
+    } //[ point , Circle]만 있는경우 union을 못함 그래서 바로 처리
+
+
+
+
 
 
     return turf.union(featureCollection1);
