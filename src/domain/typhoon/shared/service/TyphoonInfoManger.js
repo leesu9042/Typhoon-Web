@@ -4,8 +4,11 @@
 
 
 import {TyphoonListManager} from "./TyphoonListManager.js";
+import {classifyTyphoon} from "./classifyTyphoon.js";
 
-export class TyphoonIofoManager {
+
+
+export class TyphoonInfoManager {
 
 
 
@@ -15,21 +18,34 @@ export class TyphoonIofoManager {
         this.typ = null;
     }
 
-    async load(year,typ) {
-
+    async load(year, typ, name) {
         if (this.year === year && this.typ === typ && this.list.length > 0) return;
 
-        // 예: /public/typhoonList/typhoons_2024_7.json
         const url = `/mockData/typhoonRoute/typhoon_${year}_${typ}.geojson`;
-        const res = await fetch(url);  // fetch로 파일 가져오기
+        const res = await fetch(url);
+        if (!res.ok) throw new Error("파일 없음!");
 
-        if (!res.ok) throw new Error("파일 없음!"); // 실패 시 에러 발생
+        this.list = await res.json();
 
-        this.list = await res.json(); // 성공 후에만 저장
+        // 🔽 여기서 properties에 name 추가!
+        if (name) {
+            this.list.features.forEach(f => {
+                f.properties.TYP_NAME = name;
+            });
+        }
+
+
+
+        //태풍에 강도 넣기
+        this.list.features.forEach(f => {
+            const ws = f.properties.WS;
+            f.properties.TYP_CLASS = classifyTyphoon(ws);
+        });
+
         this.year = year;
-        this.typ = typ; //
-        //featureCollection 타입
+        this.typ = typ;
     }
+
 
 
 // ???
@@ -69,5 +85,13 @@ export class TyphoonIofoManager {
             features: [...observed, ...forecast],
         };
     }
+
+    addTyphoonNameToFeatures(features, name) {
+        if (!name) return;
+        features.forEach(f => {
+            f.properties.TYP_NAME = name;
+        });
+    }
+
 }
-export const typhoonIofoManager = new TyphoonIofoManager();
+export const typhoonIofoManager = new TyphoonInfoManager();
