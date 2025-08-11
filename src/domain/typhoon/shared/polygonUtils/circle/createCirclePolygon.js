@@ -7,7 +7,7 @@ import * as turf from "@turf/turf";
 
 export function createCirclePolygons(data, property, ruler) {
     // reduce를 사용해 이전 지점 정보와 결과 컬렉션을 함께 관리
-    const collections = data.features.reduce( //1번질문 objcet는 그냥api로 받아온 data가아니라 별도의 objcet로 파싱한거인지?
+        const collections = data.features.reduce( //1번질문 objcet는 그냥api로 받아온 data가아니라 별도의 objcet로 파싱한거인지?
         (acc,item) => {
             // 원본 데이터에서 경도/위도를 문자열로 받아 숫자로 변환
             const coordinates = item.geometry.coordinates;
