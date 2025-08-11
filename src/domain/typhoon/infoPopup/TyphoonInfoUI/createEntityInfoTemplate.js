@@ -17,7 +17,7 @@ export function createEntityInfoTemplate(entity) {
     const infoType = ft === 1 ? '예측정보' : '관측정보';
     const yy = getVal('YY');
     const typ = getVal('TYP');
-    const name = getVal('TYP_NAME') ?? '-'; //todo(entity에 태풍이름 데이터 가져와야함 )
+    const name = getVal('TYP_NAME') ?? '-';
     const ft_tm = getVal('FT_TM');
 
     // 날짜 포맷
