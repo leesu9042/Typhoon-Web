@@ -8,12 +8,14 @@ window.CESIUM_BASE_URL = "/static/cesium/";
 
 import { Cartesian3, createOsmBuildingsAsync, Ion, Math as CesiumMath, Terrain, Viewer , GeoJsonDataSource ,JulianDate ,BillboardGraphics , Color} from "cesium";
 import "cesium/Build/Cesium/Widgets/widgets.css";
-
-import {injectDropdown} from "./shared/components/dropdown/injectDropdown.js";
-import {processTyphoonGeojson} from "./domain/typhoon/errorRadius/processTyphoonGeojson.js";
-import {typhoonListManager} from "./domain/typhoon/service/TyphoonListManager.js";
-import {TyphoonIofoManager} from "./domain/typhoon/service/TyphoonInfoManger.js";
-import {setupYearDropdown} from "./domain/typhoon/ui/setTyphoonDropdown.js";
+import {setupYearDropdown} from "./domain/typhoon/dropDown/setTyphoonDropdown.js";
+import * as Cesium from "cesium";
+import {getClickedBillboard} from "./domain/typhoon/infoPopup/utils/getClickedBillboard.js";
+import {render} from "lit";
+import {createEntityInfoTemplate} from "./domain/typhoon/infoPopup/TyphoonInfoUI/createEntityInfoTemplate.js";
+import {updatePosition} from "./domain/typhoon/infoPopup/utils/updatePostion.js";
+import {injectLegendHTML} from "./domain/typhoon/infoPopup/legend/injectLegendHTML.js";
+import {setupTyphoonEntityLabelHandler} from "./domain/typhoon/infoPopup/setupTyphoonEntityLabelHandler.js";
 
 
 
@@ -21,91 +23,102 @@ import {setupYearDropdown} from "./domain/typhoon/ui/setTyphoonDropdown.js";
 // main 함수
 async function main(){
 
+
+    //1. 세슘뷰어 생성
     const viewer = await createViewer('cesiumContainer');
 
-    // //1. 임의 태풍 데이터 받아와서 시각화 test
-    // //데이터 geoJSON받아오기
-    // const response = await fetch('/typhoon_features.geojson');
-    // if (!response.ok) throw new Error('데이터 로드 실패');
-    // const geojson = await response.json();
-    //
-    // //태풍 geoJSon데이터 넣으면 ( featureCollection형태 )
-    // // 'RAD'는 반지름 값이 들어 있는 properties의 key.
-    // // radius 시각화
-    // await processTyphoonGeojson(viewer,'RAD', geojson);
 
-
+    // 2. 드롭다운 생성 + 리스너 설정
     await setupYearDropdown(viewer)
-    // // 2-1 year드롭다운 셋업
-    // //  현재 연도부터 10년 전까지 배열 생성
-    // const currentYear = new Date().getFullYear();
-    // const yearItems = Array.from({ length: 10 }, (_, i) => String(currentYear - i));
+
+
+
+// // 따라다닐 엔티티 (예: 움직이는 위성)
+//     const myEntity = viewer.entities.add({
+//         name: "움직이는 엔티티",
+//         position: Cesium.Cartesian3.fromDegrees(127.0, 37.5),
+//         point: { pixelSize: 10, color: Cesium.Color.RED }
+//     });
+//     htmlLabel.style.display = "block"; // 표시
+//
+// // 카메라가 렌더될 때마다 엔티티 위치를 추적해서 HTML 위치 갱신
+//     viewer.scene.postRender.addEventListener(() => {
+//         const position = myEntity.position.getValue(Cesium.JulianDate.now());
+//         if (!position) return;
+//
+//         const screenPosition = Cesium.SceneTransforms.worldToWindowCoordinates(viewer.scene, position);
+//         if (!screenPosition) return;
+//
+//         htmlLabel.style.left = `${screenPosition.x}px`;
+//         htmlLabel.style.top = `${screenPosition.y - 40}px`; // 말풍선처럼 위로 띄우기
+//     });
+
     //
-    // // 2-2 drop down 만들고 listner 설정
-    // injectDropdown({
-    //     wrapperId: "yearDropdownWrapper",
-    //     selectId: "yearSelect",
-    //     items: yearItems,
-    //     placeholder: "-- 연도를 선택하세요 --",
-    //     onChange: async (selectedYear) => {
-    //         try {
-    //             await typhoonListManager.load(selectedYear);
+    // const handler = getClickedBillboard(viewer, function (entity) {
+    //     console.log("클릭한 포인트 엔티티:", entity.properties.values);
+    // });
+
+
+
+    // let activeLabel = null;
+
+    // 3 ui들 띄우기 (태풍 info , 범례 html 판)
+    setupTyphoonEntityLabelHandler(viewer);
+
+    // 3. 태풍 ui 띄우기
+
+    // // 함수1
+    // //1. 클릭한 billboard entity 객체 가져오기
+    // const handler = getClickedBillboard(viewer, function (entity) {
+    //     console.log("클릭한 포인트 엔티티:", entity.properties?.values);
+    //
+    //     injectLegendHTML('legend-container' );
     //
     //
-    //             const typhoonItems = typhoonListManager.getDropDownItems();  // value, text 형식
-    //             // const typhoonItems = typhoonListManager .getNames();
-    //             // 2. 태풍 드롭다운 생성
-    //
-    //             injectDropdown({
-    //                 wrapperId: "typhoonDropdownWrapper",
-    //                 selectId: "typhoonSelect",
-    //                 items: typhoonItems,
-    //                 placeholder: "-- 태풍을 선택하세요 --",
-    //                 onChange: async (selectedName) => {
-    //                     const seq = typhoonListManager.getSeqByName(selectedName);
-    //                     const detail = typhoonListManager.getBySeq(seq);
-    //                     console.log(" 선택한 태풍:", detail);
-    //
-    //                     const year = detail.YY;
-    //                     const typ = detail.SEQ;
-    //
-    //                     const infoManager = new TyphoonIofoManager([]);
-    //                     await infoManager.load(year, typ);
-    //                     // 해당년도의 해당 번호의 태풍 전체 데이터를 infoManager에 저장
-    //
-    //
-    //                     //SEQ 값 들어있는 배열 생성
-    //                     const seqArray = infoManager.getAvailableSeqs()
-    //
-    //
-    //                     injectDropdown({
-    //                         wrapperId: "sequenceDropdownWrapper",
-    //                         selectId: "sequenceSelect",
-    //                         items: seqArray,
-    //                         placeholder: "-- 시퀀스(발표번호)를 선택하세요  --",
-    //                         onChange: async (selectedSeqStr)  => {
-    //                             const selectedSeq = Number(selectedSeqStr);
-    //
-    //                             // const forecast = infoManager.getForecastDataBySeq(selectedSeq);
-    //                             // const observed = infoManager.getObservedDataBySeq(selectedSeq);
-    //                             const typhoonData = infoManager.getCombinedFeatureCollectionBySeq(selectedSeq);
-    //
-    //                             await processTyphoonGeojson(viewer,'RAD', typhoonData);
-    //
-    //                             console.log(`SEQ ${selectedSeq} 선택됨`);
-    //                             console.log("선택된 seq 관측 예측 데이터:", typhoonData);
-    //                         }
-    //                     });
-    //                 }
-    //
-    //             });
-    //
-    //         } catch (e) {
-    //             console.error("태풍 목록 로딩 실패:", e);
-    //         }
+    //     // 기존 라벨 제거
+    //     if (activeLabel) {
+    //         activeLabel.remove();
+    //         activeLabel = null;
     //     }
+    //
+    //     //함수 2
+    //     //  라벨 만들기 (entity property가지고 html 템플릿 만들기)
+    //     const template = createEntityInfoTemplate(entity);
+    //
+    //
+    //     // 라벨 표시할 DOM 요소
+    //     const container = document.getElementById('entity-label');
+    //
+    //     // 화면에 렌더링
+    //     render(template, container);
+    //
+    //
+    //     //함수 3
+    //     //  좌표 따라 움직이도록 postRender 등록
+    //     //현재 엔티티의 포지션에 맞게끔 html의 포지션도 바꿔주기
+    //
+    //     //updatePosition 선택된 엔티티 값의 postion에 따라
+    //     // html의 위치도 변경해주는 함수
+    //     // 함수를 변수명으로 정의후
+    //     const positionUpdater = () => updatePosition(entity, viewer, container);
+    //
+    //
+    //
+    //
+    //     // 렌더링 될때마다 실행할 함수로 넣기
+    //     viewer.scene.postRender.addEventListener(positionUpdater);
+    //
+    //     //  나중에 제거할 수 있도록 객체 저장
+    //     activeLabel = {
+    //         remove: () => {
+    //             viewer.scene.postRender.removeEventListener(positionUpdater);
+    //             render(null, container); // 라벨 지우기
+    //         }
+    //     };
     // });
     //
+
+
 
 
 }
@@ -114,12 +127,15 @@ async function main(){
 
 main()
 
-loadSwitchComponent();
 
 
-
-async function loadSwitchComponent() {
-    const res = await fetch('/src/domain/typhoon/ui/components/switch.html');
-    const html = await res.text();
-    document.getElementById('switchWrapper').innerHTML = html;
-}
+// // 스위치 가져오는
+// loadSwitchComponent();
+//
+//
+//
+// async function loadSwitchComponent() {
+//     const res = await fetch('/src/domain/typhoon/ui/components/switch.html');
+//     const html = await res.text();
+//     document.getElementById('switchWrapper').innerHTML = html;
+// }
