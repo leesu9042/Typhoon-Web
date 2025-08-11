@@ -4,9 +4,12 @@
 // -----------------------
 
 import {injectDropdown} from "../../../shared/components/dropdown/injectDropdown.js";
-import {typhoonListManager} from "../service/TyphoonListManager.js";
-import {TyphoonIofoManager} from "../service/TyphoonInfoManger.js";
+import {typhoonListManager} from "../shared/service/TyphoonListManager.js";
+import {TyphoonInfoManager} from "../shared/service/TyphoonInfoManger.js";
 import {processTyphoonGeojson} from "../errorRadius/processTyphoonGeojson.js";
+import {renderRad15Polygons} from "../rad15/renderRad15Polygons.js";
+import {renderRad25Polygons} from "../rad25/renderRad25Polygon.js";
+import {clearActiveLabel, getActiveLabel} from "../infoPopup/state/LabelState.js";
 
 export async function setupYearDropdown(viewer) {
 
@@ -54,8 +57,8 @@ function setupTyphoonDropdown(viewer, typhoonItems) {
                 const seq = typhoonListManager.getSeqByName(selectedName);
                 const detail = typhoonListManager.getBySeq(seq);
 
-                const infoManager = new TyphoonIofoManager([]);
-                await infoManager.load(detail.YY, detail.SEQ);
+                const infoManager = new TyphoonInfoManager([]);
+                await infoManager.load(detail.YY, detail.SEQ,selectedName);
 
                 const seqArray = infoManager.getAvailableSeqs();
                 setupSequenceDropdown(viewer, infoManager, seqArray);
@@ -79,10 +82,31 @@ function setupSequenceDropdown(viewer, infoManager, seqArray) {
         items: seqArray,
         placeholder: "-- 시퀀스(발표번호)를 선택하세요 --",
         onChange: async (selectedSeqStr) => {
+
+            //시퀀스 선택시 info UI 닫기
+            const prev = getActiveLabel();
+            if (prev) {
+                prev.remove();
+                clearActiveLabel();
+            }
+
+
+
             const selectedSeq = Number(selectedSeqStr);
             const typhoonData = infoManager.getCombinedFeatureCollectionBySeq(selectedSeq);
 
             await processTyphoonGeojson(viewer, "RAD", typhoonData);
+            await renderRad15Polygons(viewer, "RAD15", typhoonData);
+
+
+            await renderRad25Polygons(viewer, "RAD25", typhoonData);
+
+
+
+            //드롭다운에있는 메타데이터로 데이터받아서
+            // 폴리곤 시각화
+
+
 
             console.log(`✅ SEQ ${selectedSeq} 선택됨`);
             console.log("선택된 데이터:", typhoonData);
