@@ -13,8 +13,8 @@ from io import StringIO
 
 url = "https://apihub.kma.go.kr/api/typ01/url/typ_data.php"
 params = {
-    "YY": "2024",
-    "typ": "7",
+    "YY": "2025",
+    "typ": "8",
     "mode": "3",
     "disp": "1",
     "help": "1",
@@ -55,15 +55,33 @@ for _, row in df.iterrows():
     # 반경/속성(propertyValue)로 쓸 값 (예: RAD15, RAD, WS 등)
     # property는 JS쪽에 사용할 속성명과 일치해야 함
     properties = {
-        'FT' : row['FT'], # 0은 분석, 1은 예측
-        'WS': float(row['WS']),
-        'RAD15': float(row['RAD15']),
-        'PS': float(row['PS']),
-        'DIR': row['DIR'],
-        'LOC': row['LOC'],
-        'RAD' : row['RAD'],
-        'SEQ' : row['SEQ'],
-        # ... 추가 원하는 속성
+        'FT': row['FT'],                     # 0: 분석 / 1: 예측
+        'YY': row['YY'],                     # 연도
+        'TYP': row['TYP'],                   # 태풍 고유 번호
+        'SEQ': row['SEQ'],                   # 발표 번호
+        'TMD': row['TMD'],                   # 예측시각-분석시각 차이 (시간 단위)
+        'TYP_TM': row['TYP_TM'],             # 분석시각 (UTC)
+        'FT_TM': row['FT_TM'],               # 예측시각 (UTC)
+
+        'LAT': float(row['LAT']),            # 위도
+        'LON': float(row['LON']),            # 경도
+
+        'DIR': row['DIR'],                   # 진행 방향 (16방위)
+        'SP': float(row['SP']),              # 진행 속도 (km/h)
+        'WS': float(row['WS']),              # 최대풍속 (m/s)
+        'PS': float(row['PS']),              # 중심기압 (hPa)
+
+        'RAD15': float(row['RAD15']),        # 강풍(15m/s) 반경
+        'RAD25': float(row['RAD25']),        # 폭풍(25m/s) 반경
+        'RAD': float(row['RAD']),            # 70% 이상 확률 반경
+
+        'ED15': row['ED15'],                 # 강풍 예외 방향
+        'ER15': float(row['ER15']),          # 강풍 예외 반경
+        'ED25': row['ED25'],                 # 폭풍 예외 방향
+        'ER25R': float(row['ER25R']),        # 폭풍 예외 반경
+
+        'LOC': row['LOC'],                   # 설명 위치 문자열
+        # 'TYP_NAME': '바이루',  # ← 필요하면 따로 추가 가능 (현재 데이터에는 없음)
     }
 
     # 하나의 Feature 생성
