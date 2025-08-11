@@ -7,7 +7,7 @@ const ruler = turf;
 
 
 // ✅ 이렇게 고쳐야 함
-import { generateConnectedPolygon } from './polygon/createPolygon/generateConnectedPolygon.js';
+import { generateConnectedPolygon } from './createPolygon/generateConnectedPolygon.js';
 
 // 🧪 테스트용 FeatureCollection (circle → point → circle)
 const featureCollection = {

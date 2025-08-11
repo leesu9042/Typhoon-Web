@@ -1,4 +1,4 @@
-import {BillboardGraphics, GeoJsonDataSource, JulianDate} from "cesium";
+import {BillboardGraphics, GeoJsonDataSource, HeightReference, JulianDate, VerticalOrigin} from "cesium";
 
 
 // geoJson에서 type이 point 형태의 데이터를 지도에 찍어줌
@@ -26,25 +26,26 @@ export async function renderTyphoonPoints(viewer, geojson,maxSeq) {
              * 위에는 cesium에 있는 GeoJsonDataSource라는 객체에
              * geoJSON을 넣어서
              * */
-            // 전체 좌표, LOC 속성만 쭉 출력(예시)
+
+            // 태풍 강도랑 똑같은 이름의 png가져오기
             entities.forEach(function (entity, idx) {
-                const pos = entity.position.getValue(JulianDate.now());
-                const loc = entity.properties.LOC?.getValue() ?? '';
-                const SEQ = entity.properties.SEQ?.getValue();
+                const TYP_CLASS = entity.properties.TYP_CLASS?.getValue() ?? 'default';
                 const FT = entity.properties.FT?.getValue();
 
-                let icon = '/static/img/default.png';
 
-                if (FT === 0) {
-                    icon = '/static/img/typhoon_FT0.png';      // 과거 관측
-                } else {
-                    icon = '/static/img/typhoon_FT1.png';      // 예측
-                }
+                // 기본 아이콘 이름: /static/img/Strong.png 등
+                let icon = `/static/img/typhoon_${TYP_CLASS}.png`;
+
+
 
                 entity.billboard = new BillboardGraphics({
                     image: icon,
-                    width: 24,
-                    height: 24,
+                    width: 48,
+                    height: 48,
+                    verticalOrigin: VerticalOrigin.BOTTOM, // ⬅️ 아래쪽이 기준점
+                    heightReference: HeightReference.CLAMP_TO_GROUND, // ⬅️ 지면에 붙이기
+                    disableDepthTestDistance: Number.POSITIVE_INFINITY // ⬅️ 지형에 가려지지 않게 (선택)
+
                 });
 
                 entity.point = undefined; // 원 숨김
