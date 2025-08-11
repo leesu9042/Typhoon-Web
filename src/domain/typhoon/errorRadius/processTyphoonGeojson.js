@@ -3,16 +3,17 @@
 import { GeoJsonDataSource } from "cesium";
 import * as turf from "@turf/turf";
 import pkg from 'cheap-ruler';
-import { renderTyphoonPoints} from "../visualize/renderTyphoonPoints.js";
-import {geojsonPointsToLineString} from "../util/polyLine/createPolylines.js";
-import { renderTyphoonPath} from "../visualize/renderTyphoonPath.js";
-import {createCirclePolygons} from "../util/circle/createCirclePolygon.js";
-import {generateConnectedPolygon} from "../util/polygon/createPolygon/generateConnectedPolygon.js";
-import {mergePolygonsAsFeatureCollection} from "../util/polygon/mergePolygonsAsFeatureCollection.js";
+import { renderTyphoonPoints} from "../shared/visualize/renderTyphoonPoints.js";
+import {geojsonPointsToLineString} from "../shared/polygonUtils/polyLine/createPolylines.js";
+import { renderTyphoonPath} from "../shared/visualize/renderTyphoonPath.js";
+import {createCirclePolygons} from "../shared/polygonUtils/circle/createCirclePolygon.js";
+import {generateConnectedPolygon} from "../shared/polygonUtils/createPolygon/generateConnectedPolygon.js";
+import {mergePolygonsAsFeatureCollection} from "../shared/polygonUtils/polygon/mergePolygonsAsFeatureCollection.js";
 import {loadGeoJsonToViewer} from "../../../shared/cesium/loadGeoJsonToViewer.js";
 import * as Cesium from "cesium";
-import {renderCirclePolygons} from "../visualize/renderCirclePolygons.js";
-import {renderFinalUnionedPolygon} from "../visualize/renderFinalUnionedPolygon.js";
+import {renderCirclePolygons} from "../shared/visualize/renderCirclePolygons.js";
+import {renderFinalUnionedPolygon} from "../shared/visualize/renderFinalUnionedPolygon.js";
+import {countPolygons} from "../shared/polygonUtils/circle/containsPolygon.js";
 
 
 /**
@@ -28,7 +29,7 @@ export async function processTyphoonGeojson(viewer,RADproperty, geojson) {
     viewer.dataSources.removeAll();
     let maxSeq = getMaxSeq(geojson)
     const CheapRuler = pkg.default || pkg;
-    const ruler = new CheapRuler(20.5, 'kilometers');
+    const ruler = new CheapRuler(16, 'kilometers');
 
 
     // // 1. 포인트 마커 시각화
@@ -44,8 +45,15 @@ export async function processTyphoonGeojson(viewer,RADproperty, geojson) {
     const circleFeatureCollection = createCirclePolygons(geojson, RADproperty, ruler);
     console.log(" Circle FeatureCollection:", JSON.stringify(circleFeatureCollection, null, 2));
 
+
+    // 3.5 circleFeatureCollection에 원이없으면 시각화 안해도되니까 바로 return
+    if (countPolygons(circleFeatureCollection)  === 0){
+        return
+    }
+
+
     // 4. Circle 폴리곤만 필터링 후 시각화
-    await renderCirclePolygons(viewer, circleFeatureCollection);
+    //await renderCirclePolygons(viewer, circleFeatureCollection);
 
     // 5. 연결 폴리곤 생성 및 union
     const connectedPolygon = generateConnectedPolygon(circleFeatureCollection, RADproperty, ruler);
@@ -59,7 +67,10 @@ export async function processTyphoonGeojson(viewer,RADproperty, geojson) {
     const unioned = turf.union(finalFC);
 
     // 8. 최종 union된 데이터 시각화
-    await renderFinalUnionedPolygon(viewer, unioned);
+    await renderFinalUnionedPolygon(viewer, unioned,{
+        color : Cesium.Color.YELLOW.withAlpha(0.5),
+    });
+
 
 
 }
