@@ -1,6 +1,3 @@
-import * as turf from "@turf/turf";
-import {getPolygonCoordsFromPair} from "./getPolygonCoordsFromPair.js";
-
 /**
  * 주어진 GeoJSON FeatureCollection에서,
  * polygon (circle)과 Point들을 조건에 따라 연결하여
@@ -30,7 +27,9 @@ export function generateConnectedPolygon(featureCollection,RadiusProperty,ruler)
         if (!current || !next) continue;  //  방어 코드 추가
 
 
-        if (isPoint(current) && isPoint(next)) continue;
+        if((isPoint(current) && isPoint(next)) || (!isPoint(current) && isPoint(next))) continue;
+        //point,  point 는 만들 polygon이 없다
+        // circle, point라면 -> point에서 더이상 값이없으므로 연결 안해도됨
 
         /**
          * @returns {Array<[number, number]>} polygon 좌표를 구성할 점 배열
@@ -65,6 +64,14 @@ export function generateConnectedPolygon(featureCollection,RadiusProperty,ruler)
 
     console.log("최종 polygon 좌표:", JSON.stringify(featureCollection1));
 
+
+    if (featureCollection1.features.length === 0) {
+        console.warn("⛔ 폴리곤이 0개라 union 못함");
+        return null;  // 혹은 빈 FeatureCollection
+    }
+
+
+
     if (featureCollection1.features.length === 1) {
         console.log(" polygon이 1개 → union 없이 그대로 반환");
         return featureCollection1.features[0]; // Feature만 반환
@@ -77,3 +84,6 @@ export function generateConnectedPolygon(featureCollection,RadiusProperty,ruler)
 
     return turf.union(featureCollection1);
 }
+import * as turf from "@turf/turf";
+
+import {getPolygonCoordsFromPair} from "./getPolygonCoordsFromPair.js";
