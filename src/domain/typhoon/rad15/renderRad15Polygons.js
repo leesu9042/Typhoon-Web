@@ -1,17 +1,8 @@
-// src/domain/typhoon/init/renderCirclePolygons.js
-
-import { GeoJsonDataSource } from "cesium";
 import * as turf from "@turf/turf";
 import pkg from 'cheap-ruler';
-import { renderTyphoonPoints} from "../shared/visualize/renderTyphoonPoints.js";
-import {geojsonPointsToLineString} from "../shared/polygonUtils/polyLine/createPolylines.js";
-import { renderTyphoonPath} from "../shared/visualize/renderTyphoonPath.js";
 import {createCirclePolygons} from "../shared/polygonUtils/circle/createCirclePolygon.js";
-import {generateConnectedPolygon} from "../shared/polygonUtils/createPolygon/generateConnectedPolygon.js";
 import {mergePolygonsAsFeatureCollection} from "../shared/polygonUtils/polygon/mergePolygonsAsFeatureCollection.js";
-import {loadGeoJsonToViewer} from "../../../shared/cesium/loadGeoJsonToViewer.js";
 import * as Cesium from "cesium";
-import {renderCirclePolygons} from "../shared/visualize/renderCirclePolygons.js";
 import {renderFinalUnionedPolygon} from "../shared/visualize/renderFinalUnionedPolygon.js";
 import {generateConnectedPolygonV2} from "../shared/polygonUtils/createPolygon/generateConnetdPolygonV2.js";
 
@@ -30,15 +21,6 @@ export async function renderRad15Polygons(viewer,RADproperty, geojson) {
     let maxSeq = getMaxSeq(geojson)
     const CheapRuler = pkg.default || pkg;
     const ruler = new CheapRuler(16, 'kilometers');
-
-    //
-    // // // 1. 포인트 마커 시각화
-    // await renderTyphoonPoints(viewer, geojson,maxSeq);
-
-    // // 2. LineString 생성 및 시각화
-    // const lineGeoJson = geojsonPointsToLineString(geojson);
-    // console.log(" Line GeoJSON:", JSON.stringify(lineGeoJson, null, 2));
-    // await renderTyphoonPath(viewer, lineGeoJson);
 
 
     // 3. 반지름(RAD) 기반 원형 폴리곤 생성
