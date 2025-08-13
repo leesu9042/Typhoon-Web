@@ -1,6 +1,7 @@
 import { html } from 'https://cdn.jsdelivr.net/npm/lit@3.1.2/+esm';
 import * as Cesium from "cesium";
 import {generateWindInfoText} from "../utils/formatWindRadiusInfo.js";
+import {clearActiveLabel} from "../state/LabelState.js";
 
 
 /**
@@ -72,6 +73,13 @@ export function createEntityInfoTemplate(entity) {
 
     return html`
         <div class="entity-info-box">
+
+            <button
+                    class="entity-close-btn"
+                    @click=${() => clearActiveLabel()}>
+                ×
+            </button>
+            
             <div><strong>${yy}년 제${typ}호 태풍 ${name} ${infoType}</strong><br />
                     (${dateStr})</div><br />
             

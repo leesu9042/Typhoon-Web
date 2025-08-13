@@ -21,7 +21,7 @@ export class TyphoonInfoManager {
     async load(year, typ, name) {
         if (this.year === year && this.typ === typ && this.list.length > 0) return;
 
-        const url = `/mockData/typhoonRoute/typhoon_${year}_${typ}.geojson`;
+        const url = `/mockData/typhoonRoute/typhoon_${year}/typhoon_${year}_${typ}.geojson`;
         const res = await fetch(url);
         if (!res.ok) throw new Error("파일 없음!");
 

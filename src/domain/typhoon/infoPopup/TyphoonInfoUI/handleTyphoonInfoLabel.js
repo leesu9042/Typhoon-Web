@@ -2,6 +2,12 @@ import {createEntityInfoTemplate} from "./createEntityInfoTemplate.js";
 import {render} from "lit";
 import {updatePosition} from "../utils/updatePostion.js";
 
+
+
+/**
+ * entity로 태풍 데이터가 있는 html(info UI)를 만들고 
+ * postrender에 렌더링 될 때마다 entity 위차값으로 html(info UI)를 옮기기
+ * */
 export function handleTyphoonInfoLabel(entity, viewer) {
     const container = document.getElementById("entity-label");
 
