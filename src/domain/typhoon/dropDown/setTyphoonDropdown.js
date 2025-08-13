@@ -7,9 +7,9 @@ import {injectDropdown} from "../../../shared/components/dropdown/injectDropdown
 import {typhoonListManager} from "../shared/service/TyphoonListManager.js";
 import {TyphoonInfoManager} from "../shared/service/TyphoonInfoManger.js";
 import {processTyphoonGeojson} from "../errorRadius/processTyphoonGeojson.js";
-import {renderRad15Polygons} from "../rad15/renderRad15Polygons.js";
-import {renderRad25Polygons} from "../rad25/renderRad25Polygon.js";
 import {clearActiveLabel, getActiveLabel} from "../infoPopup/state/LabelState.js";
+import {renderRad15PolygonsWrapper} from "../rad15/renderRad15PolygonsWrapper.js";
+import {renderRad25PolygonsWrapper} from "../rad25/renderRad25PolygonsWrapper.js";
 
 export async function setupYearDropdown(viewer) {
 
@@ -96,10 +96,11 @@ function setupSequenceDropdown(viewer, infoManager, seqArray) {
             const typhoonData = infoManager.getCombinedFeatureCollectionBySeq(selectedSeq);
 
             await processTyphoonGeojson(viewer, "RAD", typhoonData);
-            await renderRad15Polygons(viewer, "RAD15", typhoonData);
 
 
-            await renderRad25Polygons(viewer, "RAD25", typhoonData);
+            //wrpper함수로 바꿔봤당
+            await renderRad15PolygonsWrapper(viewer, "RAD15", typhoonData);
+            await renderRad25PolygonsWrapper(viewer, "RAD25", typhoonData);
 
 
 
