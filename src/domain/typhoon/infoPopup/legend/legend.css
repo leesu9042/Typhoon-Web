@@ -9,6 +9,21 @@
     font-size: 14px;
 }
 
+
+.legend-close-btn {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+}
+.legend-close-btn:hover { opacity: .7; }
+
 .legend-list {
     list-style: none;
     padding: 0;

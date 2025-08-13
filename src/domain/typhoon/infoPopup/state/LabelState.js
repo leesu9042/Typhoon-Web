@@ -11,5 +11,8 @@ export function getActiveLabel() {
 }
 
 export function clearActiveLabel() {
+    if (activeLabel?.remove) {
+        activeLabel.remove();
+    }
     activeLabel = null;
 }
