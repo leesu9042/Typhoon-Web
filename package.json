@@ -24,6 +24,7 @@
     "vite-plugin-cesium": "^1.2.23"
   },
   "devDependencies": {
-    "fs-extra": "^11.3.0"
+    "fs-extra": "^11.3.0",
+    "madge": "^8.0.0"
   }
 }
