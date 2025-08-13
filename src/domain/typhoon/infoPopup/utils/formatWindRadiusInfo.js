@@ -26,7 +26,7 @@ export function generateWindInfoText(RAD, ED, ER) {
     if (!ED || ED === '-' || erVal === null || erVal <= 0) {
         windInfoText += ' ( - )';
     } else {
-        windInfoText += `(${ED} 약 ${erVal} km)`;
+        windInfoText += `(${ED}방향 약 ${erVal} km)`;
     }
 
     return windInfoText;
