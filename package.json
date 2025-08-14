@@ -19,12 +19,12 @@
     "cheap-ruler": "^4.0.0",
     "lit": "^3.3.1",
     "polygon-clipping": "^0.15.7",
-    "ruler": "^1.0.0",
-    "vite": "^7.0.5",
-    "vite-plugin-cesium": "^1.2.23"
+    "ruler": "^1.0.0"
   },
   "devDependencies": {
     "fs-extra": "^11.3.0",
-    "madge": "^8.0.0"
+    "madge": "^8.0.0",
+    "vite": "^7.1.2",
+    "vite-plugin-cesium": "^1.2.23"
   }
 }

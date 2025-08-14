@@ -2,7 +2,7 @@
 
 // Cesium static assets 경로 설정 (이 줄이 반드시 import보다 먼저 있어야 함)
 
-import {createViewer} from "./shared/cesium/cesiumInitial";
+import {createViewer} from "./shared/cesium/cesiumInitial.js";
 
 window.CESIUM_BASE_URL = "/static/cesium/";
 
