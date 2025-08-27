@@ -14,6 +14,7 @@ import * as Cesium from "cesium";
 import {renderCirclePolygons} from "../shared/visualize/renderCirclePolygons.js";
 import {renderFinalUnionedPolygon} from "../shared/visualize/renderFinalUnionedPolygon.js";
 import {generateConnectedPolygonV2} from "../shared/polygonUtils/createPolygon/generateConnetdPolygonV2.js";
+import {countPolygons} from "../shared/polygonUtils/circle/containsPolygon.js";
 
 
 /**
@@ -47,6 +48,26 @@ export async function renderRad25Polygons(viewer,RADproperty, geojson) {
 
     // 4. Circle 폴리곤만 필터링 후 시각화
     // await renderCirclePolygons(viewer, circleFeatureCollection);
+
+
+
+
+    const polygonCount = countPolygons(circleFeatureCollection);
+
+    if (polygonCount === 0) {
+        return; // 아무것도 안 함
+    }
+
+    if (polygonCount === 1) {
+        // feature 하나만 꺼내서 바로 시각화
+        await renderFinalUnionedPolygon(viewer, circleFeatureCollection.features[0], {
+            color: Cesium.Color.BLUE.withAlpha(0.5),
+            outlineColor: Cesium.Color.fromBytes(81, 113, 208),
+        });
+        return; // 여기서 끝
+    }
+
+
 
     // 5. 연결 폴리곤 생성 및 union
     // v2 -> circle들만 merge하게끔

@@ -28,6 +28,8 @@ export function generateConnectedPolygonV2(featureCollection,RadiusProperty,rule
         if (!current || !next) continue;  //  방어 코드 추가
 
 
+
+        //v2의 차이점
         if(isPoint(current) || isPoint(next)) continue;
         //point,  point 는 만들 polygon이 없다
         // circle, point라면 -> point에서 더이상 값이없으므로 연결 안해도됨
@@ -35,7 +37,7 @@ export function generateConnectedPolygonV2(featureCollection,RadiusProperty,rule
         /**
          * @returns {Array<[number, number]>} polygon 좌표를 구성할 점 배열
          */
-        const coords = getPolygonCoordsFromPair(current, next,RadiusProperty, ruler);
+        const coords = getPolygonCoordsFromPair(current, next,RadiusProperty);
         //polygon 만들 좌표 생성 함수
         // circle이면 ±90° 방향으로 2개의 점,
         // point면 중심점 1개를 반환하게 될 함수

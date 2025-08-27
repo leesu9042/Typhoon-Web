@@ -7,6 +7,9 @@ export async function renderTyphoonPoints(viewer, geojson,maxSeq) {
 
 
 
+
+
+
 // viewer는 Cesium.Viewer 객체라고 가정
     GeoJsonDataSource.load(geojson)
         .then(function (dataSource) {
@@ -31,10 +34,12 @@ export async function renderTyphoonPoints(viewer, geojson,maxSeq) {
             entities.forEach(function (entity, idx) {
                 const TYP_CLASS = entity.properties.TYP_CLASS?.getValue() ?? 'default';
                 const FT = entity.properties.FT?.getValue();
+                const ftBit = Number(FT) === 1 ? '1' : '0';                         // 그 외 값은 0으로 처리
+
 
 
                 // 기본 아이콘 이름: /static/img/Strong.png 등
-                let icon = `/static/img/typhoon_${TYP_CLASS}.png`;
+                let icon = `/static/img/typhoon/typhoon_${TYP_CLASS}_${ftBit}.png`;
 
 
 

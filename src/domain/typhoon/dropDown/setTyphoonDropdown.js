@@ -6,7 +6,7 @@
 import {injectDropdown} from "../../../shared/components/dropdown/injectDropdown.js";
 import {typhoonListManager} from "../shared/service/TyphoonListManager.js";
 import {TyphoonInfoManager} from "../shared/service/TyphoonInfoManger.js";
-import {processTyphoonGeojson} from "../errorRadius/processTyphoonGeojson.js";
+import { renderRADPolygons} from "../errorRadius/renderRADPolygons.js";
 import {clearActiveLabel, getActiveLabel} from "../infoPopup/state/LabelState.js";
 import {renderRad15PolygonsWrapper} from "../rad15/renderRad15PolygonsWrapper.js";
 import {renderRad25PolygonsWrapper} from "../rad25/renderRad25PolygonsWrapper.js";
@@ -95,7 +95,7 @@ function setupSequenceDropdown(viewer, infoManager, seqArray) {
             const selectedSeq = Number(selectedSeqStr);
             const typhoonData = infoManager.getCombinedFeatureCollectionBySeq(selectedSeq);
 
-            await processTyphoonGeojson(viewer, "RAD", typhoonData);
+            await renderRADPolygons(viewer, "RAD", typhoonData);
 
 
             //wrpper함수로 바꿔봤당

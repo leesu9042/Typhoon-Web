@@ -30,6 +30,10 @@ export function handleTyphoonClick(entity, viewer) {
     // 1. entity로 태풍정보 html만들고
     // info가 entity 따라가게끔 설정
     const label = handleTyphoonInfoLabel(entity, viewer);
+
+
+
+
     setActiveLabel(label);
 
 

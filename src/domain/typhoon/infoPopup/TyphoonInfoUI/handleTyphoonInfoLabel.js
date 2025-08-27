@@ -9,6 +9,7 @@ import {updatePosition} from "../utils/updatePostion.js";
  * postrender에 렌더링 될 때마다 entity 위차값으로 html(info UI)를 옮기기
  * */
 export function handleTyphoonInfoLabel(entity, viewer) {
+
     const container = document.getElementById("entity-label");
 
     // 1. 엔티티 정보를 기반으로 html을 만듦

@@ -13,8 +13,6 @@ export function injectDropdown({ wrapperId, selectId, items, onChange , placehol
     wrapper.innerHTML = "";
 
 
-
-
     const select = createDropdown({ id: selectId, items ,placeholder });
     select.addEventListener("change", () => onChange(select.value));
     wrapper.appendChild(select);

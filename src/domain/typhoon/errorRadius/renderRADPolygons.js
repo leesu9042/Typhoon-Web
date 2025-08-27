@@ -22,7 +22,7 @@ import {countPolygons} from "../shared/polygonUtils/circle/containsPolygon.js";
  * @param {Object} geojson - GeoJSON FeatureCollection (모든 feature는 Point 타입)
  *
  **/
-export async function processTyphoonGeojson(viewer,RADproperty, geojson) {
+export async function renderRADPolygons(viewer,RADproperty, geojson) {
 
 
     // 초기화
@@ -70,9 +70,6 @@ export async function processTyphoonGeojson(viewer,RADproperty, geojson) {
     await renderFinalUnionedPolygon(viewer, unioned,{
         color : Cesium.Color.YELLOW.withAlpha(0.5),
     });
-
-
-
 }
 
 
