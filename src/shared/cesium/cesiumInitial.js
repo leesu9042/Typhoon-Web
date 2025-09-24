@@ -13,6 +13,7 @@ export async function createViewer(containerId) {
         terrain: Terrain.fromWorldTerrain(),
         timeline: false,
         animation: false,
+        infoBox: false,            // ← 엔티티 정보 패널 끄기
         baseLayerPicker: false,
     });
 

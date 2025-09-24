@@ -34,7 +34,7 @@ export function generateConnectedPolygon(featureCollection,RadiusProperty,ruler)
         /**
          * @returns {Array<[number, number]>} polygon 좌표를 구성할 점 배열
          */
-        const coords = getPolygonCoordsFromPair(current, next,RadiusProperty, ruler);
+        const coords = getPolygonCoordsFromPair(current, next,RadiusProperty);
         //polygon 만들 좌표 생성 함수
         // circle이면 ±90° 방향으로 2개의 점,
         // point면 중심점 1개를 반환하게 될 함수

@@ -27,9 +27,18 @@ export async function renderRadPolygons(
     // 2) 원들을 잇는 연결 폴리곤
     const connected = generateConnectedPolygonV2(circleFC, radKey, ruler);
 
-    // 3) 합치기 → 외곽 라인
+// 3) 합치기 → 외곽 라인
     const finalFC = mergePolygonsAsFeatureCollection(circleFC, connected);
-    const unioned = turf.union(finalFC);
+
+    let unioned;
+    if (!finalFC || finalFC.features.length === 0) {
+        console.warn("⚠️ finalFC에 폴리곤 없음");
+        return null;
+    } else if (finalFC.features.length === 1) {
+        unioned = finalFC.features[0];   // 그대로 반환
+    } else {
+        unioned = turf.union(finalFC);   // 2개 이상일 때만 union 실행
+    }
 
     // 4) 화면에 그리기
     return renderFinalUnionedPolygon(viewer, unioned, { color, outlineColor, flyTo });

@@ -1,8 +1,10 @@
 import * as turf from "@turf/turf";
 import pkg from 'cheap-ruler';
+import CheapRuler from "cheap-ruler";
 
 
-export function getPolygonCoordsFromPair(current, next,radiusProperty ,ruler) {
+
+export function getPolygonCoordsFromPair(current, next,radiusProperty ) {
 
     const isPoint = f => f.geometry.type === "Point";
     const isCircle = f => f.geometry.type === "Polygon";
@@ -26,6 +28,18 @@ export function getPolygonCoordsFromPair(current, next,radiusProperty ,ruler) {
 
 
         const circlePropertyValue = parseFloat(circleFeature.properties[radiusProperty]) || 0
+
+
+
+        //위도 가져오기
+        const circleLat = circleCoord[1];
+        const pointLat = pointCoord[1];
+
+        const avgLat = (circleLat + pointLat) / 2;
+
+        const ruler = new CheapRuler(avgLat, "kilometers");
+
+
 
 
 
@@ -60,6 +74,10 @@ export function getPolygonCoordsFromPair(current, next,radiusProperty ,ruler) {
         const currentPropertyValue = parseFloat(currentFeature.properties[radiusProperty]) || 0
         const nextPropertyValue = parseFloat(nextFeature.properties[radiusProperty]) || 0;
 
+
+        // 평균 위도 기반으로 ruler 생성
+        const avgLat = (currentCoord[1] + nextCoord[1]) / 2;
+        const ruler = new CheapRuler(avgLat, "kilometers");
 
         // 이전 지점과 현재 지점 사이의 방위각 계산
         let bearing = ruler.bearing(currentCoord, nextCoord);
