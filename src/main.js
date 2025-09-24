@@ -33,13 +33,3 @@ main()
 
 
 
-// // 스위치 가져오는
-// loadSwitchComponent();
-//
-//
-//
-// async function loadSwitchComponent() {
-//     const res = await fetch('/src/domain/typhoon/ui/components/switch.html');
-//     const html = await res.text();
-//     document.getElementById('switchWrapper').innerHTML = html;
-// }
